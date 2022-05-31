@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="./assets/img/header-logo/logo_mobile1 1.svg">
+    <!--Nome da pagina-->
+    <title>Traveller | Cadastro</title>
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"/>    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="./style.css"/>   
+    <link rel="stylesheet" href="assets/css/carousel.css" />
+
+    <!-- NOSSO CSS-->
+    <link rel="stylesheet" href="./assets/css/cadastro.css" />
+    <script src="assets/js/cadastro.js"></script>
+  </head>
+
+  <body>
+  
+    <div class="register-form-wrapper">
+      <div class="logo-login">
+        <picture>
+          <a href="./index.html" title="Voltar ao início">
+            <img src="./assets/img/logo.jpeg" alt="Esta e uma imagem do logo da Traveller" />
+          </a>
+        </picture>
+      </div>
+        <!--div botoes acessibilidade-->
+        <div class="btn-container">
+          <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+          <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+        </div>
+      
+      <div class="register">
+        <h1 id="form-title">faça o seu cadastro</h1>
+      </div>
+
+      <div class ="div-form">
+        <form action="" id="formulario" method="POST" name="formulario">
+          <!--nome-->
+          <input type="text" id="nome" name="nome" placeholder="NOME" />
+          <br />
+          <!--sobrenome-->
+          <input
+            type="text"
+            id="lname"
+            name="sobrenome"
+            placeholder="SOBRENOME"
+          />
+          <br />
+          <!--data de nascimento -->
+         
+          <input 
+            type="text" 
+            id = "date"
+            name="date" 
+            placeholder="DATA DE NASCIMENTO" 
+            onfocus="(this.type='date')" onblur="(this.type='text')">
+
+          <br />
+          <!--CPF-->
+          <input
+            type="number"
+            id="cpf"
+            name="cpf"
+            min="11"
+            max="11"
+            placeholder="CPF"
+          />
+          <br />
+          <!--email-->
+          <input type="email" id="email" name="email" placeholder="EMAIL" />
+          <br />
+          <!--senha-->
+          <div class="password">
+            <div class="password-wrapper">
+              <input
+                type="password"
+                id="passOne"
+                name="password"
+                minlength="8"
+                maxlength="10"
+                required
+                placeholder="SENHA"
+                />
+              </div>
+              <div class="password-wrapper">
+              <input
+                type="password"
+                id="passTwo"
+                name="password"
+                minlength="8"
+                maxlength="10"
+                required
+                placeholder="CONFIRME A SENHA"
+              />
+            </div>
+            <!--confirme a senha-->
+          </div>
+          <p id="desc-senha">a senha precisa ter entre 8-10 dígitos</p>
+          <!--boto de cadastro-->
+          <input id="btnCadastrar" class="register-button" type="button" value="CADASTRE" onclick="efetuaCadastro()" />
+          <p id="possui-cadastro"> <a href="./login.html">Já possuo cadastro</a></p>
+          <p id="voltar-inicio"> <a href="./index.html">Voltar ao início</a></p>
+        </form>
+      </div>
+    </div>
+      <!-- Javascript -->
+      <script src="assets/js/jquery-3.3.1.min.js"></script>
+      <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+      </script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+      </script>
+      <script src="assets/js/jquery.backstretch.min.js"></script>
+      <script src="assets/js/wow.min.js"></script>
+      <script src="assets/js/scripts.js"></script>
+      <script src="./assets/js/main.js"></script>
+  </body>
+</html>

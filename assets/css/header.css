@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.header__botoes {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    text-align: end;
+}
+
+.header__logo img {
+    width: 80%;
+}
+#dropdownMenuLink{
+    background-color: #023555;
+    border-style: none;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-weight: 500;
+    
+}
+.link_login:hover, #dropdownMenuLink:hover {
+    box-shadow: inset 2px 2px 2px  rgba(0, 0, 0, 0.668);
+}
+.link_login:active {
+    background-color: #e97b5d;
+}
+.link_login {
+    text-decoration: none;
+    background-color: #e28065;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.483);
+}
+
+.header__logo__mobile {
+    display: none;
+}
+
+/* RESPONSIVIDADE -------------------------- */
+@media (max-width: 655px) {
+    .header__logo {
+        display: none;
+    }
+
+    .header__logo__mobile {
+        display: block;
+    }
+}

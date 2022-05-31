@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+body {
+    padding: 0px 50px;
+    font-family: 'Montserrat';
+}
+
+/* SEÇÃO INTRO ----------------------------------------------------- */
+.sectionIntro {
+    margin: 30px 0;
+}
+
+.sectionIntro h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Montserrat';
+}
+
+.sectionIntro p {
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.sectionIntro__imagens {
+    display: flex;
+}
+
+.sectionIntro__imagensEsquerda {
+    width: 50%;
+    margin-right: 5px;
+}
+
+.sectionIntro__imagensEsquerda img {
+    height: 100%;
+    width: 100%;
+}
+
+.sectionIntro__imagensDireita__div {
+    display: flex;
+    width: 50%;
+}
+
+.sectionIntro__imagensDireita img {
+    width: 98%;
+    margin: 3px;
+}
+
+/* SEÇÃO RESTAURANTE ------------------------------------------------ */
+.sectionRestaurante {
+    margin: 70px 0;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.506);
+}
+.sectionRestaurante__intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionRestaurante__intro__nome h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin: 0;
+}
+
+.sectionRestaurante__intro__nome i {
+    color: #fea436;
+    font-size: 1.1rem;
+}
+
+.sectionRestaurante__intro__local {
+    display: flex;
+    align-items: center;
+}
+
+.sectionRestaurante__intro__endereço {
+    font-family: 'Montserrat';
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.sectionRestaurante__intro__endereço p {
+    color: #000;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.sectionRestaurante__intro__endereço p:hover {
+    text-decoration: underline;
+}
+
+.sectionRestaurante__intro__endereço I {
+    color: #fea436;
+}
+
+.sectionRestaurante__sobre {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.sectionRestaurante__sobre img {
+    width: 50%;
+    margin-right: 40px;
+}
+
+.sectionRestaurante__sobre__text {
+    width: 80%;
+}
+
+.sectionRestaurante__sobre__text p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.link__site {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+.link__site:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* RODAPÉ ------------------------------------------------------- */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.footer__links {
+    font-size: 1.5rem;
+} 
+
+
+/* RESPONSIVIDADE ----------------------------------------------------------- */
+@media (max-width: 800px) {
+
+/* SEÇÃO INTRO ----------------------------------------------------- */
+
+.sectionIntro h1 {
+    font-size: 1.5rem;
+}
+
+.sectionIntro p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+}
+
+@media (max-width: 900px) {
+
+/* SEÇÃO RESTAURANTE ---------------------------------------------- */
+
+.sectionRestaurante__intro__nome h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin: 0;
+}
+
+.sectionRestaurante__intro__nome i {
+    color: #fea436;
+    font-size: 1.1rem;
+}
+
+.sectionRestaurante__intro__endereço p {
+    color: #000;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 1.1rem;
+}
+
+.sectionRestaurante__sobre__text p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+}
+
+@media (max-width: 750px) {
+
+.sectionRestaurante__sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.sectionRestaurante__sobre img {
+    width: 80%;
+    margin-bottom: 40px;
+    margin-right: 0;
+}
+}
+
+@media (max-width: 650px) {
+
+
+    .sectionRestaurante__intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionRestaurante__intro__endereço p {
+        margin-left: 0px;
+    }
+    
+    .sectionRestaurante__intro__endereço i {
+        display: none;    
+        }
+}
+
+
+@media (max-width: 480px) {
+
+body {
+    padding: 0px 30px;
+}
+.sectionIntro h1 {
+    font-size: 1.3rem;
+}
+
+.sectionIntro p {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sectionRestaurante__intro__nome h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.sectionRestaurante__intro__nome i {
+    color: #fea436;
+    font-size: 0.8rem;
+}
+
+.sectionRestaurante__intro__endereço p {
+    color: #000;
+    margin: 0;
+    margin-left: 0px;
+    font-size: 0.9rem;
+}
+
+.sectionRestaurante__intro__endereço i {
+display: none;    
+}
+
+.sectionRestaurante__sobre img {
+    width: 100%;
+}
+
+.sectionRestaurante__sobre__text {
+    width: 100%;
+}
+
+.sectionRestaurante {
+padding-bottom: 50px;
+}
+}

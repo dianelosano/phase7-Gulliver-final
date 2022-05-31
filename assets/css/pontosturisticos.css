@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+body {
+    padding: 0px 50px;
+    font-family: 'Montserrat';
+}
+
+/* SEÇÃO IMAGENS - ÁREAS */
+
+.sectionAreas h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-transform: lowercase;
+}
+
+.sectionAreas p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sectionAreas__imagens__cima {
+    display: flex;
+    width: 100%;
+}
+
+.sectionAreas__imagens__cima a {
+    width: 100%;
+    margin: 0;
+}
+
+.sectionAreas__img img {
+    width: 100%;
+}
+
+.sectionAreas__img2 img {
+  width: 100%;
+}
+
+.sectionAreas__imagens__baixo {
+  display: flex;
+}
+
+.sectionAreas__imagens__baixo a {
+  width: 100%;
+}
+
+.sectionAreas__imagens__baixo div {
+  width: 80%;
+}
+/* SEÇÃO OPÇÕES -------------------------------- */
+.sectionLista {
+    font-family: 'Montserrat';
+    padding: 0 50px;
+}
+
+.sectionLista__div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionLista__card {
+    border: 1px solid #efb260;
+    border-radius: 20px;
+    width: 49%;
+    margin: 30px 0;
+  }
+  
+  .sectionLista__cardImg img{
+      width: 100%;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+  }
+
+.sectionLista__cardText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+  }
+  
+  .sectionLista__cardText__sobreDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+  }
+  
+  .sectionLista__cardText__sobreDiv h3 {
+    font-weight: bold;
+    color: #000;
+    font-size: 1.2rem;
+  }
+  
+  .div__avaliacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+  }
+  
+  .avaliacaoText {
+    color: #efb260;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .avaliacaoNr {
+    color: #fff;
+    background-color: #efb260;
+    font-size: 0.6rem;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  .sectionLista__cardText__sobreDiv p {
+    font-size: 0.9rem;
+  }
+  
+  .cardText__linkPagina {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #efb260;
+    border-radius: 40px;
+    padding: 7px 40px;
+  }
+
+  .sectionLista__cardText__link {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cardText__linkPagina:hover {
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.435);
+} 
+
+.cardText__linkPagina:hover {
+    color: #fff;
+}
+
+.cardText__linkPagina:active {
+    background-color: #dc8e28;
+}
+
+/* RESPONSIVIDADE ------------------------------------------------------------------ */
+
+@media (max-width: 750px) {
+  .sectionLista {
+    padding: 0px;
+  }
+  .sectionLista__cardText__sobreDiv h3 {
+    font-size: 1rem;
+  }
+  .avaliacaoText {
+    display: none;
+  }
+  .div__avaliacao p {
+    font-size: 0.8rem;
+  }
+  .sectionLista__cardText__sobreDiv p {
+    font-size: 0.9rem;
+  }
+  .cardText__linkPagina {
+    font-weight: 500;
+    padding: 7px 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    padding: 10px 30px;
+  }
+  .sectionAreas h1 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+.sectionAreas p {
+  font-size: 0.9rem;
+}
+.sectionLista__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.sectionLista__card {
+  width: 100%;
+}
+.sectionLista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+@media (max-width: 400px) {
+.sectionLista__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+}

@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap");
+
+body {
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+#map {
+  height: 100%;
+}
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-map-control-button {
+  background-color: #fff;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  padding: 0 0.5em;
+  font: 400 18px Roboto, Arial, sans-serif;
+  overflow: hidden;
+  height: 40px;
+  cursor: pointer;
+}
+.custom-map-control-button:hover {
+  background: rgb(235, 235, 235);
+}
+
+/* HEADER */
+
+.headerLista {
+  height: 10vh;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerLista__logo {
+  margin-bottom: 10px;
+  width: 60%;
+}
+.headerLista__logoMobile{
+  display: none;
+}
+
+.headerLista__linkLogin {
+  text-decoration: none;
+  background-color: #9ac1af;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* SEÇÃO INPUTS CHECKIN --------------------------- */
+.sectionIndoPara {
+  background-color: #e28065;
+  padding: 50px 150px;
+  text-align: center;
+}
+
+.sectionIndoPara h2 {
+  color: #fff;
+  text-transform: lowercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.sectionIndoPara__inputs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 40px;
+  background-color: #fff;
+  padding: 15px 10px;
+}
+
+.sectionIndoPara__input {
+  color: #e28065;
+  border: none;
+  padding: 0px 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.sectionIndoPara__input input {
+  border: none;
+}
+
+.sectionIndoPara__input label {
+  font-size: 0.9rem;
+}
+
+.input--indo {
+  border-right: 1px solid #e28065;
+}
+
+.input--checkin,
+.input--checkout {
+  border-right: 1px solid #e28065;
+}
+
+.sectionIndoPara__btn {
+  background-color: #9ac1af;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+textarea:focus,
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+::-webkit-input-placeholder {
+  color: grey;
+  text-transform: lowercase;
+}
+
+.placeholder-color {
+  color: grey;
+}
+
+#map {
+  margin: 2rem 0;
+}
+
+#country {
+  border: none;
+  color: grey;
+  font-size: 0.8rem;
+}
+/* SEÇÃO LISTA ------------- */
+.sectionLista {
+  background-color: #f4f1de;
+  padding: 60px 300px;
+}
+
+.sectionLista h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sectionLista__card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 130px;
+  margin: 20px 0;
+  border: 1px solid #e28065;
+  background-color: #fff;
+}
+
+.sectionLista__cardText {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.sectionLista__cardText__sobreDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectionLista__cardText__sobreDiv h3 {
+  text-transform: lowercase;
+  font-weight: bold;
+  color: #000;
+  font-size: 1.1rem;
+}
+
+.sectionLista__cardText__sobreDiv {
+  text-transform: lowercase;
+  font-weight: 500;
+}
+
+.div__avaliacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+}
+
+.avaliacaoText {
+  color: #e28065;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.avaliacaoNr {
+  color: #fff;
+  background-color: #e28065;
+  font-size: 0.6rem;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.sectionLista__cardText__sobreDiv p {
+  font-size: 0.9rem;
+}
+
+.sectionLista__cardText__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardText__linkUrl {
+  text-decoration: none;
+  color: #738b80;
+  font-weight: 500;
+}
+
+.cardText__linkPagina {
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #9ac1af;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.footerLista {
+  background-color: #f4f1de;
+  margin-top: 0;
+  padding-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#footerLista__links {
+  margin-bottom: 10px;
+}
+
+/* ----------------- RESPONSIVIDADE ----------------- */
+
+@media (max-width: 1400px) {
+  .sectionLista {
+    padding: 60px 150px;
+  }
+  .sectionLista__card {
+    padding: 20px 80px;
+    justify-content: flex-start;
+  }
+  .avaliacaoText {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 1286px) {
+  .sectionLista {
+    padding: 60px 150px;
+  }
+  .sectionLista__card {
+    padding: 20px 80px;
+  }
+  .avaliacaoText {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 986px) {
+  .sectionIndoPara{
+    padding: 50px 80px;
+  }
+  .sectionIndoPara__input {
+    padding: 0 10px;
+  }
+
+  .sectionIndoPara__input label {
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+  }
+
+  .sectionIndoPara__input input {
+    font-size: 0.7rem;
+  }
+
+  .sectionIndoPara__btn {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+
+  .sectionLista {
+    background-color: #f4f1de;
+    padding: 60px 80px;
+  }
+
+  .sectionLista__cardText__sobreDiv h3 {
+    font-size: 1rem;
+  }
+
+  .sectionLista__cardText__sobre p {
+    font-size: 0.9rem;
+  }
+
+  .sectionLista__cardText__link a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 788px) {
+  .sectionLista {
+    background-color: #f4f1de;
+    padding: 60px 30px;
+  }
+  .sectionIndoPara {
+    padding: 50px 30px;
+  }
+}
+
+  @media (max-width: 678px) {
+    .sectionLista__card {
+      display: block;
+      padding: 20px 40px;
+    }
+    .sectionLista {
+      padding: 60px 100px;
+    }
+    .sectionLista__cardImg img {
+      width: 100%;
+      height: 100%;
+    }
+    .sectionLista__cardText {
+      width: 100%;
+    }
+    .sectionLista__cardText__link {
+      margin-top: 20px;
+    }
+    .sectionLista__cardText__sobreDiv {
+      margin-top: 10px;
+    }
+
+    .sectionLista__cardText__sobreDiv h3 {
+      font-size: 1.1rem;
+    }
+
+    .sectionLista__cardText__sobre p {
+      font-size: 1rem;
+    }
+
+    .avaliacaoNr {
+      font-size: 0.6rem;
+    }
+    .sectionLista__cardText {
+      margin-left: 0px;
+    }
+  }
+
+  @media (max-width: 530px) {
+    .sectionLista__card {
+      display: block;
+      padding: 20px 25px;
+    }
+    .sectionLista {
+      padding: 60px 50px;
+    }
+    .headerLista__logo {
+      display: none;
+    }
+    .headerLista__logoMobile {
+      display: block;
+      width: 80%;
+    }
+    .avaliacaoText {
+      display: none;
+    }
+  }
+

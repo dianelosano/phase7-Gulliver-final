@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/header-logo/logo_mobile1 1.svg">
+    <!--Nome da pagina-->
+    <title>Traveller | Locação</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="./style.css" />
+    <link rel="stylesheet" href="assets/css/carousel.css" />
+    <!-- NOSSO CSS-->
+    <link rel="stylesheet" href="./assets/css/aluguelCarros.css" />
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <script src="https://kit.fontawesome.com/67568c9f06.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__botoes">
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle .sr-only" href="#" role="button" id="dropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Menu
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="./index.html">Início</a>
+                    <a class="dropdown-item" href="./gastronomia.html">Gastronomia</a>
+                    <a class="dropdown-item" href="./pontosturisticos.html">Pontos Turísticos</a>
+                    <a class="dropdown-item" href="./listaHospedagem.html">Onde se Hospedar</a>
+                </div>
+            </div>
+            <div class="btnLogin">
+                <a class="link_login" href="login.html">Fazer login</a>
+            </div>
+        </div>
+        <div class="header__logo">
+            <a href="./index.html" title="Voltar ao início">
+                <img src="./assets/img/logo.jpeg" alt="Logo">
+            </a>
+        </div>
+        <div class="header__logo__mobile">
+            <a href="./index.html" title="Voltar ao início">
+                <img src="./assets/img/header-logo/logo_mobile1 1.svg" alt="Logo">
+            </a>
+        </div>
+    </header>
+    <!-- FIM HEADER -->
+
+
+    <div class="container__principal">
+        <!--imagem principal-->
+        <div class="img__hero">
+            <img src="./assets/img/hoteis_hospedagem/placesearch 1 (1).svg"
+                alt="Esta e uma imagem do logo da Traveller" />
+        </div>
+
+        <div class="conteudo__hoteis">
+            <div class="search-hotel">
+                <div class="search-inputs">
+                    <p>para onde você vai?</p>
+
+                    <div class="input-where-to-go">
+                        <label for="hotel-para"><i class="fa-solid fa-location-dot"></i> Indo para</label>
+                        <input type="text" placeholder="Para onde você vai?" />
+                    </div>
+                    <div class="input-where-to-go-checkin">
+                        <label for="checkin"><i class="fa-solid fa-calendar-days"></i> Check-in:</label>
+                        <input class="placeholder-color" type="date" placeholder="Quando você vai?" />
+                    </div>
+                    <div class="input-where-to-go-checkout">
+                        <label for="checkout"><i class="fa-solid fa-calendar-days"></i> Check-out:</label>
+                        <input class="placeholder-color" type="date" placeholder="Quando você volta?" />
+                    </div>
+                    <div class="input-where-to-go-hospedes">
+                        <label for="hospedes"><i class="fa-solid fa-calendar-days"></i> Diárias:</label>
+                        <input type="number" placeholder="Quantas diárias?" />
+
+                    </div>
+                    <button class="input-where-to-gohospedagemBtn">BUSCAR</button>
+                </div>
+                <div class="maps">
+                    <button class="input-where-to-mapa-btn">VER NO MAPA</button>
+                    <div class="maps-mapa">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d29255.712114491882!2d-46.67117858008114!3d-23.569735884066016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x94ce59e6f06b0f89%3A0x43617829f701baf6!2sIbirapuera%2C%20S%C3%A3o%20Paulo%20-%20SP!3m2!1d-23.5836023!2d-46.6644988!4m5!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!3m2!1d-23.555771399999998!2d-46.6395571!5e0!3m2!1spt-BR!2sbr!4v1653448723259!5m2!1spt-BR!2sbr"
+                            width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-list">
+                <div class="num-hoteis">
+                    <p id="retorno-hoteis">São Paulo: 30 locadoras encontradas</p>
+                </div>
+                <!--inicio dos cards-->
+
+                <div class="list">
+
+                    <div class="hotel-card">
+
+                        <div class="imagem-hotel">
+                            <img src="./assets/img/locadoras_lista/pagina_locadora/localiza/localiza_img1.png" alt=""
+                                class="rounded float-left">
+                        </div>
+
+                        <div class="card-info-hotel">
+
+                            <div class="titulo-hotel" id="titulo-hotel">
+                                <h2>Localiza</h2>
+
+
+                                <div class="info-aval">
+                                    <h6> avaliação </h6>
+                                    <div class="estrelas">
+                                        4,4
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="endereco">
+                                <p>
+                                    R. Otávio Tarquínio de Sousa, 377 - Campo Belo, São Paulo - SP
+
+                                </p>
+
+                            </div>
+
+                            <div class="desc-hotel">
+                                <p>
+                                    A Localiza Hertz é uma rede lojas especializadas em aluguel de carros
+                                    que atua nas principais cidades e aeroportos do Brasil e também em diversos
+                                    países da América Latina, como Argentina, Paraguai, Colômbia, e Equador.
+                                    Possui mais de 600 agências e a maior frota de veículos do Brasil.
+                                    <br>
+                                    Aberto das 06:00 á 00:00 <br>
+                                    0800 979 2020
+
+                                </p>
+                            </div>
+                            <div class="btn-hoteis">
+                                <button class="btn btn-primary .sr-only" id=" detalhes-hoteis">VER MAIS
+                                    DETALHES</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotel-card">
+
+                        <div class="imagem-hotel">
+                            <img src="./assets/img/locadoras_lista/pagina_locadora/unidas/unidas_img1.png"
+                                alt="" class="rounded float-left">
+                        </div>
+
+                        <div class="card-info-hotel">
+
+                            <div class="titulo-hotel" id="titulo-hotel">
+                                <h2>Unidas</h2>
+
+
+                                <div class="info-aval">
+                                    <h6> avaliação </h6>
+                                    <div class="estrelas">
+                                        3.9
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="endereco">
+                                <p>
+                                    Praça Comandante Linneu Gomes - Vila Congonhas, São Paulo
+
+                                </p>
+                            </div>
+
+                            <div class="desc-hotel">
+                                <p>
+                                    Como segunda maior locadora do Brasil e referência em locação de frotas para
+                                    empresas, a Unidas busca sempre pela inovação e simplicidade.
+                                    Buscamos de maneira constante a melhoria da qualidade do nosso serviço, a satisfação
+                                    dos nossos clientes e a valorização das pessoas que fazem parte da nossa Companhia.
+                                    O nosso foco está na mobilidade, na eficiência das empresas e na comodidade das
+                                    pessoas. <br>
+                                    (11) 3164-9833
+
+                                </p>
+                            </div>
+                            <div class="btn-hoteis">
+                                <button class="btn btn-primary .sr-only" id=" detalhes-hoteis">VER MAIS
+                                    DETALHES</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotel-card">
+
+                        <div class="imagem-hotel">
+                            <img src="./assets/img/locadoras_lista/pagina_locadora/movida/movida_img1.png" alt=""
+                                class="rounded float-left">
+                        </div>
+
+                        <div class="card-info-hotel">
+
+                            <div class="titulo-hotel" id="titulo-hotel">
+                                <h2>Movida</h2>
+
+
+                                <div class="info-aval">
+                                    <h6> avaliação </h6>
+                                    <div class="estrelas">
+                                        4,1
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="endereco">
+                                <p>
+                                   R. Otávio Tarquínio de Sousa, 23 - Campo Belo, São Paulo - SP
+                                </p>
+                            </div>
+
+                            <div class="desc-hotel">
+                                <p>
+                                    A Movida se destaca como uma das maiores companhias de locação de veículos do
+                                    Brasil, e como a mais reconhecida pelos consumidores no quesito inovação,
+                                    oferecendo soluções que buscam proporcionar uma experiência exclusiva por meio
+                                    de uma oferta de serviços e produtos diferenciada e alianças estratégicas com
+                                    montadoras e concessionárias e locadoras. <br>
+                                    0800 606 8686
+
+                                </p>
+                            </div>
+                            <div class="btn-hoteis">
+                                <button class="btn btn-primary .sr-only" id=" detalhes-hoteis">VER MAIS
+                                    DETALHES</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotel-card">
+
+                        <div class="imagem-hotel">
+                            <img src="./assets/img/locadoras_lista/pagina_locadora/avis/avis_img1.png"
+                                alt="" class="rounded float-left">
+                        </div>
+
+                        <div class="card-info-hotel">
+
+                            <div class="titulo-hotel" id="titulo-hotel">
+                                <h2>Avis</h2>
+
+
+                                <div class="info-aval">
+                                    <h6> avaliação </h6>
+                                    <div class="estrelas">
+                                        3.3
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="endereco">
+                                <p>
+                                    Av. Washington Luís, s/n - Aeroporto de Congonhas, São Paulo - SP
+
+                                </p>
+                            </div>
+
+                            <div class="desc-hotel">
+                                <p>
+                                    A Avis Rent a Car é das principais locadoras de veículos de todo o mundo e surgiu em
+                                    1946.
+                                    Atualmente, a locadora é uma das gigantes globais, com presença em mais de 175
+                                    países com
+                                    veículos para aluguel diário e terceirização de frota para empresas. <br>
+                                    (11) 2155-2847
+
+                                </p>
+                            </div>
+                            <div class="btn-hoteis">
+                                <button class="btn btn-primary .sr-only" id=" detalhes-hoteis">VER MAIS
+                                    DETALHES</button>
+                            </div>
+                        </div>
+                    </div>
+              
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="proxima-pagina">
+                <a href="">>> Proxima</a>
+            </div> -->
+        </div>
+
+    </div>
+    <footer class="footer__hospedagem">
+        <div class="footer__links" id="footer__links_hospedagem">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <h6>Copyright &copy; 2022 FIAP TRAVELLER - Todos os direitos reservados</h6>
+    </footer>
+    </div>
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap");
+
+body {
+    padding: 0px 50px;
+    font-family: 'Montserrat';
+}
+
+.link_login:hover, #dropdownMenuLink:hover {
+    box-shadow: inset 2px 2px 2px  rgba(0, 0, 0, 0.668);
+}
+.link_login:active {
+    background-color: #e97b5d;
+}
+.link_login {
+    text-decoration: none;
+    background-color: #e28065;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.483);
+}
+
+.container__principal {
+    max-width: 100%;
+}
+
+.img__hero {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.img__hero img {
+    width: 100%;
+}
+
+.conteudo__hoteis {
+    display: flex;
+    max-width: 100%;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: x-large;
+}
+
+.search-hotel {
+    margin-top: 5rem;
+    padding: 0px 5px;
+    text-align: center;
+    width: 30%;
+}
+
+.search-inputs {
+    background-color: #e28065;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.imagem-hotel {
+    margin: 1rem;
+    width: 50rem;
+}
+
+.estrelas {
+    background-color: #e28065;
+    margin-left: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+    border-radius: 5rem;
+    color: #FFFFFF;
+    font-size: small;
+    padding: 10px;
+}
+
+.hotel-card {
+    border-style: solid;
+    border-width: thin;
+    border-color: #e28065;
+    margin-bottom: 2rem;
+    padding: 10px;
+}
+
+.btn-primary,
+#detalhes-hoteis {
+    background-color: #9AC1AF;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 1.5rem;
+    width: 15rem;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.568);
+}
+
+.btn-hoteis {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.btn-hoteis button:hover {
+    background-color: #9AC1AF;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.568);
+}
+.btn-hoteis button:active {
+    background-color: #6f9c87;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.568);
+}
+#retorno-hoteis {
+    color: black;
+    font-weight: 600;
+}
+
+
+
+input:focus {
+    outline: none !important;
+}
+
+::-webkit-input-placeholder {
+    color: #e28065b6;
+}
+
+.input-where-to-gohospedagemBtn {
+    background-color: #9AC1AF;
+    align-items: center;
+    width: 13rem;
+    height: 3.20rem;
+    margin-top: 2rem;
+    background: #9AC1AF;
+    border-radius: 2rem;
+    border-style: none;
+    color: #FFFFFF;
+    font-weight: 450;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.431);
+}
+
+.input-where-to-gohospedagemBtn:hover {
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.431);
+}
+
+.input-where-to-gohospedagemBtn:active {
+    background-color: #6f9c87;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.431);
+}
+
+.input-where-to-mapa-btn:hover {
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.431);
+}
+.input-where-to-mapa-btn:active {
+    background-color: #e97b5d;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.431);
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+}
+
+.input-where-to-mapa-btn {
+    align-items: center;
+    width: 13rem;
+    height: 3.20rem;
+    margin-top: 2rem;
+    background: #e28065;
+    border-radius: 2rem;
+    border-style: none;
+    color: #FFFFFF;
+    font-weight: 450;
+    cursor: pointer;
+}
+
+.hotel-para {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.submit-line {
+    position: relative;
+    width: 200px;
+}
+
+.input-where-to-go,
+.input-where-to-go-checkin,
+.input-where-to-go-checkout,
+.input-where-to-go-hospedes {
+    background-color: #fff;
+    border-radius: 35px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #e28065;
+    padding: 7px 0;
+}
+
+input {
+    padding: 10px;
+    border-radius: 1.8rem;
+    border-style: none;
+    width: 12rem;
+    height: 1rem;
+    border-radius: 6rem;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+.maps {
+    margin-top: 20px;
+}
+
+.maps-mapa {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 1rem;
+}
+
+.hotel-list {
+    margin-top: 5rem;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    width: 70%;
+}
+
+.card-info-hotel {
+    margin-left: 21rem;
+    background-color: #fff;
+    height: 16.75rem;
+    padding: 1rem;
+}
+
+.titulo-hotel {
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-aval {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    color: #e28065;
+    margin-top: 0.8rem;
+}
+
+.proxima-pagina {
+    display: flex;
+    justify-content: right;
+    margin-right: 9rem;
+}
+
+.footer__hospedagem {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#dropdownMenuLink {
+    background-color: #023555;
+    border-style: none;
+}
+
+.endereco p {
+    font-size: 1.3rem;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.desc-hotel p {
+    color: #000;
+    font-size: 1rem;
+}
+
+.container__principal {
+    width: 100%;
+}
+
+/* --------------------- RESPONSIVIDADE --------------------- */
+
+@media (max-width: 1500px) {
+    .titulo-hotel h2 {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .endereco p {
+        font-size: 1.1rem;
+        color: #000;
+    }
+    .desc-hotel p {
+        color: #000;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 1500px) {
+    .info-aval h6 {
+        display: none;
+    }
+}
+
+@media (max-width: 1300px) {
+
+.search-inputs p {
+    font-size: 1.2rem;
+}
+
+.input-where-to-go,
+.input-where-to-go-checkin,
+.input-where-to-go-checkout,
+.input-where-to-go-hospedes {
+    font-size: 0.85rem;
+}
+
+}
+
+ @media (max-width: 1250px) {
+    .desc-hotel p {
+        display: none;
+    }
+}   
+
+
+@media (max-width: 972px) {
+    .search-hotel {
+        display: none;
+    }
+    .hotel-list {
+        width: 100%;
+    }
+    .btn-hoteis {
+        margin-top: 30px;
+        justify-content: left;
+    }
+}   
+
+@media (max-width: 700px) {
+    body {
+        padding: 0px 20px;
+    }
+    .img__hero {
+        display: none;
+    }
+    .hotel-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list {
+        padding: 0px 30px;
+    }
+    .imagem-hotel {
+        width: 100%;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .imagem-hotel img {
+        width: 100%;
+    }
+    .card-info-hotel {
+        width: 100%;
+        margin: 0px;
+        height: 13rem;
+    }
+    .btn-hoteis {
+        justify-content: center;
+    }
+
+}  
+
+
+
+
+
+

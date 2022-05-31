@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+body {
+    padding: 0px 50px;
+    font-family: 'Montserrat';
+}
+
+/* PONTOS TURISTICOS - CULTURA E HISTORIA */
+
+.pontoTuristico {
+    margin-bottom: 150px;
+}
+
+.sectionIntro {
+    margin: 30px 0;
+}
+
+.sectionIntro h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Montserrat';
+    text-align: center;
+    text-transform: lowercase;
+    margin-bottom: 30px;
+}
+
+.sectionIntro__imagens {
+    display: flex;
+}
+
+.sectionIntro__imagensEsquerda {
+    width: 50%;
+    margin-right: 5px;
+}
+
+.sectionIntro__imagensEsquerda img {
+    height: 100%;
+    width: 100%;
+}
+
+.sectionIntro__imagensDireita__div {
+    display: flex;
+    width: 50%;
+}
+
+.sectionIntro__imagensDireita img {
+    width: 98%;
+    margin: 3px;
+}
+
+/* SEÇÃO SOBRE ------------------------- */
+
+.sectionSobre__parte1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.sectionSobre__parte1__titulo h2 {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+
+.sectionSobre__parte1__titulo i {
+    color: #fea436;
+}
+
+.sectionSobre__parte1__horario p {
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: 'Montserrat';
+}
+
+.sectionSobre__parte2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionSobre__parte2__text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 1.1rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.sectionSobre__parte2__text a {
+    color: #000;
+    text-decoration: none;
+}
+
+.sectionSobre__parte2__text a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+.negrito {
+    font-weight: bold;
+}
+
+.sectionSobre__parte2__local {
+    width: 40%;
+}
+
+.sectionSobre__parte2__local__endereço {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size: 1.1rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.sectionSobre__parte2__local__endereço p {
+   margin: 0;
+   margin-left: 10px;
+}
+
+/* RESPONSIVIDADE --------------------------------------- */
+
+@media (max-width: 850px) {
+    .pontoTuristico {
+        margin-bottom: 100px;
+    }
+    .sectionSobre__parte2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionSobre__parte2__text {
+        width: 100%;
+    }
+    .sectionSobre__parte2__local {
+        margin-top: 40px;
+        width: 80%;
+        height: 30vh;
+    }
+    .sectionSobre__parte2__local__endereço {
+        justify-content: start;
+    }
+}
+
+@media (max-width: 650px) {
+    .sectionIntro h1 {
+        font-size: 1.9rem;
+    }
+    .sectionSobre__parte2__text {
+        width: 100%;
+    }
+    .sectionSobre__parte2__local {
+        width: 100%;
+    }
+
+    @media (max-width: 480px) {
+        body {
+            padding: 0 30px;
+        }
+        .sectionSobre__parte1__titulo h2 {
+            font-size: 1.3rem;
+        }
+        .sectionSobre__parte1__titulo i, .sectionSobre__parte2__text a, .sectionSobre__parte2__local__endereço p  {
+            font-size: 0.9rem;
+        }
+        .sectionSobre__parte1__horario p, .sectionSobre__parte2__local__endereço i {
+            font-size: 1em;
+        }
+        .sectionSobre__parte2__text p {
+            font-size: 0.8em;
+        }
+}
+}

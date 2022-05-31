@@ -1,0 +1,409 @@
+body {
+  background-image: url("/assets/img/background-image.png");
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 70px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+ 
+.register-form-wrapper {
+  background-color: #fff;
+  padding: 50px 120px;
+  border-radius: 30px;
+  width: 60%;
+  text-align: center;
+}
+ 
+.logo-login {
+  margin-bottom: 10px;
+}
+ 
+::-webkit-input-placeholder{
+  color: #e28065;
+}
+ 
+#email-login,
+#pass-login{
+  padding: 1.2rem;
+}
+ 
+#form-title {
+  color: #e28065;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+ 
+input {
+  margin-top: 10px;
+  border: solid 0.1rem #e28065;
+  width: 100%;
+  border-radius: 30px;
+  background-color: #ffffff;
+  border-color: #c96438;
+  padding: 10px 20px;
+}
+ 
+input:focus {
+  outline: none !important;
+}
+ 
+button:focus {
+  outline: none !important;
+}
+ 
+#desc-senha{
+  color: #e28065;
+  text-align: end;
+  margin-top: 10px;
+}
+ 
+#btnCadastrar {
+  background-color: #e28065;
+  color: #fff;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.542);
+  margin-bottom: 20px;
+}
+ 
+#btnCadastrar:hover {
+  box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.542);
+  cursor: pointer;
+}
+ 
+#btnCadastrar:active {
+  box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.542);
+  background-color: #c96438;
+}
+
+#possui-cadastro a{
+  color: #e28065;
+  text-decoration: none;
+}
+ 
+#voltar-inicio a {
+  text-decoration: none;
+  color: #53806b;
+}
+ 
+#voltar-inicio a:hover, #possui-cadastro a:hover {
+  text-decoration: underline;
+}
+ 
+button,
+#increase-font,
+#decrease-font {
+  border-radius: 100%;
+  border-style: none;
+  width: 2.8rem;
+  height: 2rem;
+  background-color: #ffffff;
+  color: #c96438;
+}
+
+#increase-font:hover,
+#decrease-font:hover {
+  background-color: #e28065;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+/* --------------------- RESPONSIVIDADE --------------------- */
+ 
+/* INICIO @MEDIA 2 */
+@media (max-width: 1000px) {
+  .register-form-wrapper {
+    width: 80%;
+  }
+}
+ 
+@media (max-width: 800px) {
+  .register-form-wrapper {
+    width: 100%;
+    padding: 50px 80px;
+  }
+}
+ 
+@media (max-width: 580px) {
+  body {
+    padding: 30px;
+  }
+}
+ 
+@media (max-width: 480px) {
+  body {
+    padding: 30px;
+  }
+ 
+  .register-form-wrapper {
+    padding: 30px;
+  }
+ 
+  .logo-login img {
+    width: 100%;
+  }
+  .form-title {
+    font-size: 0.8rem;
+  }
+}
+/* 
+body {
+  background-image: url("/assets/img/background-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-size: 1rem;
+}
+.header {
+  margin: 2rem 2rem;
+}
+
+  .logo-login-mb{
+  display:none;
+}
+.register-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  width: 55rem;
+  height: 48rem;
+  float: right;
+  border-radius: 5%;
+  margin: 8rem;
+}
+
+button,
+#increase-font,
+#decrease-font {
+  font-size: large;
+  font-weight: 600;
+  border-style: none;
+  width: 2.8rem;
+  height: 2.3rem;
+  background-color: #FFFFFF;
+  color: #C96438;
+}
+
+#increase-font:hover,
+#decrease-font:hover {
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.668);
+}
+
+
+::-webkit-input-placeholder{
+  color: #e28065;
+}
+
+#email-login,
+#pass-login{
+  padding: 1.2rem;
+}
+
+
+#form-title {
+  color: #e28065;
+  margin-left: 2rem;
+}
+
+
+input {
+  border-radius: 1.5rem;
+  width: 35rem;
+  height: 3.75rem;
+  color: #e28065;
+  text-indent: 2rem;
+  margin: 0 0 1rem;
+  border: solid 0.1rem #e28065;
+  background-color: #ffffff;
+  border-color: #c96438;
+}
+
+input:focus {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+
+.password,
+#passOne,
+#passTwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 17rem;
+}
+
+#passTwo {
+  margin-left: 1rem;
+}
+
+.password-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.register-button {
+  background-color: #e28065;
+  color: #fff;
+  cursor: pointer;
+  width: 26.063rem;
+  margin-left: 5rem;
+ 
+}
+
+button,
+#increase-font,
+#decrease-font{
+
+  border-radius: 100% ;
+  border-style: none;
+  width: 2.8rem;
+  height: 2.3rem;
+  background-color: #FFFFFF;
+  color: #C96438;
+
+}
+
+#desc-senha{
+  color: #FFFFFF;
+}
+--------------------- RESPONSIVIDADE ---------------------
+
+INICIO @MEDIA 1
+@media (max-width: 1132px) {
+
+
+ 
+  .register-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 48rem;
+    float: right;
+    border-radius: 5%;
+    padding: 6rem;
+    margin-right: 10%;
+    margin-left: 5%;
+  }
+
+}
+
+INICIO @MEDIA 1
+@media (max-width: 719px) {
+
+
+  .register-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 48rem;
+    float: right;
+    border-radius: 5%;
+    padding: 5rem;
+    margin-right: 10%;
+    margin-left: 5%;
+  }
+
+input {
+  border-radius: 1.5rem;
+  width: 92%;
+  height: 2.75rem;
+  color: #e28065;
+  text-indent: 2rem;
+  margin: 0 0 1rem;
+  border: solid 0.1rem #e28065;
+  background-color: #ffffff;
+  border-color: #c96438;
+
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0px;
+}
+
+#passTwo {
+  margin: 0rem;
+}
+
+}
+
+INICIO @MEDIA 1
+@media (max-width: 646px) {
+
+
+  .register-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 44rem;
+    float: right;
+    border-radius: 0%;
+    padding: 1rem;
+
+  }
+
+  input {
+    border-radius: 1.5rem;
+    width: 100%;
+    height: 2.2rem;
+    color: #e28065;
+    text-indent: 2rem;
+    margin: 0 0 1rem;
+    border: solid 0.1rem #e28065;
+    background-color: #ffffff;
+    border-color: #c96438;
+
+  }
+
+  .password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+  }
+
+  #passTwo {
+    margin: 0rem;
+  }
+
+  .register-button {
+    background-color: #e28065;
+    color: #fff;
+    cursor: pointer;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+  .logo-login{
+   display: none;
+  }
+
+  .logo-login-mb{
+    display: flex;
+  }
+  #form-title{
+    font-size: 1.5rem;
+    margin:0px;
+    padding:0.2rem;
+  }
+
+} */

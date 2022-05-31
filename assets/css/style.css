@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+body {
+    padding: 0px 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+
+.header_home {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.img_logo {
+    width: 60%;
+}
+
+.img_logo-mobile {
+    display: none;
+}
+
+.link_login:active {
+    background-color: #e97b5d;
+}
+
+/* SEÇÃO INPUTS CHECK-IN -------------------------------- */
+.inicio {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    margin-left: 6rem;
+    margin-right: 4rem;
+    border-radius: 30px;
+    background-image: url(/assets/img/placesearch\ 1.svg);
+    background-size: cover;
+}
+
+.sectionCheckin {
+    display: flex;
+    text-align: center;
+    color: #004346;
+    border: 1px solid #9ac1af;
+    border-radius: 90px;
+    padding: 10px 20px;
+    justify-content: space-between;
+    margin: 20px 0;
+    background-color: #fff;
+    width: 80%;
+    margin-left: -2.5rem;
+}
+
+.sectionCheckin__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+.sectionCheckin__input label {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.sectionCheckin__input input {
+    color: #004346d2;
+    border: none;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+::-webkit-input-placeholder {
+    color: grey;
+    text-transform: lowercase;
+}
+
+#sectionCheckin__btnSearch {
+    background-color: #9ac1af;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.483);
+}
+
+#sectionCheckin__btnSearch:hover, .link_login:hover {
+    box-shadow: inset 2px 2px 2px  rgba(0, 0, 0, 0.483);
+}
+
+#sectionCheckin__btnSearch:active {
+    background-color: #69a98b;
+}
+
+.sectionCheckin-mobile {
+    display: none;
+}
+
+/* SEÇÃO SOBRE SÃO PAULO ------------------------------------ */
+
+.sectionSobreSP {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    padding: 30px 50px;
+    margin: 20px 0;
+    
+}
+
+.sectionSobreSP__imagens {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.sectionSobreSP__imagens img {
+    width: 25%;
+    margin: 0 10px;
+}
+
+.sectionSobreSP__texto {
+    width: 30%;
+    text-align: end;
+    padding-left: 20px;
+}
+
+.sectionSobreSP__texto h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.sectionSobreSP__texto h3 {
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+.sectionSobreSP__texto__btn {
+    border: none;
+    background-color: #efb260;
+    padding: 5px 15px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.483);
+}
+
+.sectionSobreSP__texto__btn a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sectionSobreSP__texto__btn:hover {
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.435);
+} 
+
+.sectionSobreSP__texto__btn a:hover, .link_login:hover {
+    color: #fff;
+}
+
+.sectionSobreSP__texto__btn:active {
+    background-color: #dc8e28;
+}
+
+/* SEÇÃO OPÇÕES ----------------------------------------*/
+.sectionOpcoes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.sectionOpcoes a {
+    text-decoration: none;
+}
+
+.sectionOpcoes__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px 3px;
+    min-width: 300px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.321);
+}
+
+.sectionOpcoes__card img {
+    width: 100%;
+}
+
+.sectionOpcoes__card p {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.321);
+}
+
+#card__hoteis {
+    background-color: #e97b5d;
+}
+
+#card__hoteis:hover {
+    background-color: #dd5d39;
+}
+
+#card__gastronomia {
+    background-color: #03588c;
+}
+
+#card__gastronomia:hover {
+    background-color: #1a75ad;
+}
+
+#card__pontos {
+    background-color: #efb260;
+}
+
+#card__pontos:hover {
+    background-color: #dc8e28;
+}
+
+#card__carros {
+    background-color: #9ac1af;
+}
+
+#card__carros:hover {
+    background-color: #69a98b;
+}
+
+/* RODAPÉ ------------------------------------------------------- */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.footer__links {
+    font-size: 1.5rem;
+} 
+
+/* --------------------- RESPONSIVIDADE --------------------- */
+
+/* INICIO @MEDIA 1 */
+@media (max-width: 1700px) {
+
+  .inicio {
+      height: 60vh;
+      margin-left: 0rem;
+      margin-right: 0rem;
+  }
+
+  .sectionCheckin {
+      margin-left: 0rem;
+  }
+
+}
+/* INICIO @MEDIA 1 */
+@media (max-width: 972px) {
+
+/* HEADER */
+header {
+    height: 5vh;
+}
+
+.img_logo {
+    width: 50%;
+}
+
+/* SEÇÃO INPUTS CHECK-IN */
+.sectionCheckin__input {
+    padding: 0 10px;
+}
+
+.sectionCheckin__input label {
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+}
+
+.sectionCheckin__input input {
+    font-size: 0.7rem;
+}
+
+#sectionCheckin__btnSearch {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+}
+
+/* SEÇÃO SOBRE SÃO PAULO ------------------------------------ */
+
+#img_grafite, #img_construcao {
+    display: none;
+}
+
+#img_masp, #img_museu {
+    width: 50%;
+}
+}
+/* FIM @MEDIA 1 */
+
+/* INICIO @MEDIA 2 */
+@media (max-width: 768px) {
+
+body {
+    padding: 0px 30px;
+}
+
+   /* HEADER */
+header_home {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.img_logo {
+    margin-bottom: 10px;
+}
+
+.link_login {
+    font-size: 0.8rem;
+    padding: 8px 15px;
+}
+
+/* SEÇÃO INPUTS CHECK-IN -------------------------------- */
+/* .inicio {
+    height: 0vh;
+} */
+
+/* .sectionCheckin {
+    display: none;   
+} */
+/* 
+.sectionCheckin-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #e28065;
+    height: 80vh;
+}
+
+.sectionCheckin_title-mobile {
+    text-transform: lowercase;
+    color: #fff;
+}
+
+.sectionCheckin__input-mobile {
+    background-color: #fff;
+    width: 80%;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionCheckin__input-mobile input {
+    border: none;
+} */
+
+/* .sectionCheckin__input-mobile label {
+    color: #e28065;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.placeholder-color {
+    color: grey;
+} */
+
+
+/* SEÇÃO SOBRE SÃO PAULO ------------------------------------ */
+
+#img_museu {
+    display: none;
+}
+
+#img_masp {
+    display: inline;
+    width: 60%;
+}
+.sectionSobreSP {
+    padding-left: 0;
+}
+
+.sectionSobreSP__texto {
+    width: 40%;
+    text-align: center;
+    padding-left: 0px;
+}
+}
+/* FIM @MEDIA 2 */
+
+/* INICIO @MEDIA 3 */
+@media (max-width:480px) {
+    
+/* HEADER */
+header {
+    height: 7vh;
+}
+
+.img_logo {
+    display: none;
+}
+
+.img_logo-mobile {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link_login {
+    font-size: 1rem;
+}
+
+/* SEÇÃO INPUTS CHECK-IN -------------------------------- */
+.sectionCheckin {
+    width: 90%;
+}
+#sectionCheckin__btnSearch {
+    font-size: 0.8rem;
+    padding: 0px 10px;
+}
+/* .sectionCheckin {
+    display: none;
+} */
+
+/* SEÇÃO SOBRE SÃO PAULO ------------------------------------ */
+
+.sectionSobreSP__imagens {
+    display: none;
+}
+
+.sectionSobreSP {
+    padding: 0 30px;
+}
+
+.sectionSobreSP__texto {
+    width: 90%;
+    text-align: center;
+    padding-left: 0px;
+    margin: 0;
+}
+
+.sectionSobreSP__texto h2 {
+    font-size: 1.8rem;
+}
+
+.sectionSobreSP__texto h3 {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+}
