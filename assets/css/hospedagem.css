@@ -23,7 +23,25 @@ body {
     font-weight: 500;
     box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.483);
 }
+button,
+#increase-font,
+#decrease-font {
+    font-size: large;
+    font-weight: 600;
+    border-style: none;
+    width: 2.8rem;
+    height: 2rem;
+    background-color: #FFFFFF;
+    color: #e28065;
+}
 
+#increase-font:hover,
+#decrease-font:hover {
+    background-color: #e28065;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
 .container__principal {
     max-width: 100%;
 }

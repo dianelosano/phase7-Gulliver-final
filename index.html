@@ -55,8 +55,10 @@
         <section class="sectionCheckin">
             <div class="sectionCheckin__input input--indo">
                 <label for="hotel"><i class="fa-solid fa-location-dot"></i> Indo para</label>
-                <input type="text" placeholder="Para onde você que ir?">
+                <input class="cidade" type="text" placeholder="Para onde você que ir?">
+               
             </div>
+             <ul class="sugestoes"></ul> <!--VERIFICAR DEPOIS-->
             <button id="sectionCheckin__btnSearch" onclick="location.href='./listaHospedagem.html'">Buscar</button>
         </section>
     </div>
@@ -166,6 +168,7 @@
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/scripts.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/autocomplete.js"></script>
     <script src="./assets/js/fetch-hotel.js"></script>
 
 </body>
