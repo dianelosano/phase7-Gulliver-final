@@ -148,6 +148,42 @@ footer {
     font-size: 1.5rem;
 } 
 
+.div__verDetalhes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div__text__verDetalhes {
+    width: 50%;
+}
+.div__btn__verDetalhes {
+    width: 100%;
+    text-align: end;
+    margin-right: 10px;
+}
+.btn__verDetalhes {
+    font-family: 'Montserrat';
+    border: none;
+    background-color: #fea436;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.587);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.btn__verDetalhes:hover {
+    color: #fff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.587);
+}
+
+.btn__verDetalhes:active {
+    /* color: #fff; */
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.587);
+    background-color: #e99835;
+}
 
 /* RESPONSIVIDADE ----------------------------------------------------------- */
 @media (max-width: 800px) {
@@ -162,6 +198,18 @@ footer {
     font-size: 1.2rem;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+.btn__verDetalhes {
+    font-family: 'Montserrat';
+    border: none;
+    background-color: #fea436;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.587);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
 }
 }
 
