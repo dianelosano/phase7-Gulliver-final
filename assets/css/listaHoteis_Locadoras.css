@@ -80,9 +80,13 @@ p {
     padding: 10px 0px;
 }
 
-.imagem-hotel {
-    margin: 1rem;
-    width: 50rem;
+.cor_verde {
+    background-color: #6f9c87;
+}
+
+.card-info-hotel {
+    width: 70%;
+    margin-left: 30px;
 }
 
 .estrelas {
@@ -104,7 +108,13 @@ p {
     border-width: thin;
     border-color: #e28065;
     margin-bottom: 2rem;
-    padding: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.locadora-card {
+    border-color: #6f9c87;
 }
 
 .btn-primary,
@@ -119,18 +129,17 @@ p {
 }
 
 .btn-hoteis {
-    margin-top: 1rem;
+    margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: right;
 }
 
 .btn-hoteis button:hover {
-    background-color: #9AC1AF;
+    background-color: #023555;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.568);
 }
 .btn-hoteis button:active {
-    background-color: #6f9c87;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.568);
 }
 #retorno-hoteis {
@@ -138,14 +147,12 @@ p {
     font-weight: 600;
 }
 
-
-
 input:focus {
     outline: none !important;
 }
 
 ::-webkit-input-placeholder {
-    color: #e28065b6;
+    color: rgba(128, 128, 128, 0.654);
 }
 
 .input-where-to-gohospedagemBtn {
@@ -168,7 +175,6 @@ input:focus {
 }
 
 .input-where-to-gohospedagemBtn:active {
-    background-color: #6f9c87;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.431);
 }
 
@@ -176,7 +182,6 @@ input:focus {
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.431);
 }
 .input-where-to-mapa-btn:active {
-    background-color: #e97b5d;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.431);
 }
 
@@ -232,6 +237,10 @@ input:focus {
     padding: 7px 0;
 }
 
+.cor_azul_letra {
+    color: #023555;
+}
+
 input {
     padding: 10px;
     border-radius: 1.8rem;
@@ -259,19 +268,12 @@ input {
     margin-left: 1%;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: nowrap; */
     width: 70%;
 }
 
-.card-info-hotel {
-    margin-left: 21rem;
-    background-color: #fff;
-    height: 16.75rem;
-    padding: 1rem;
-}
-
 .titulo-hotel {
-    font-size: small;
+    font-size: 1.5rem;
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -285,6 +287,13 @@ input {
     margin-top: 0.8rem;
 }
 
+.aval-locadora {
+    color: #6f9c87;
+}
+
+.cor_azul {
+    background-color: #023555;
+}
 .proxima-pagina {
     display: flex;
     justify-content: right;
@@ -320,6 +329,7 @@ input {
 }
 
 /* --------------------- RESPONSIVIDADE --------------------- */
+
 
 @media (max-width: 1500px) {
     .titulo-hotel h2 {
@@ -387,15 +397,16 @@ input {
     .hotel-card {
         display: flex;
         flex-direction: column;
+        padding: 20px 10px;
     }
 
     .list {
         padding: 0px 30px;
     }
-    .imagem-hotel {
+    .imagem-hotel{
         width: 100%;
         margin: 0px;
-        padding: 20px;
+        padding: 10px;
     }
 
     .imagem-hotel img {
@@ -404,7 +415,7 @@ input {
     .card-info-hotel {
         width: 100%;
         margin: 0px;
-        height: 13rem;
+        padding: 10px;
     }
     .btn-hoteis {
         justify-content: center;

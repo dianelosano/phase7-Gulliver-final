@@ -20,7 +20,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="./style.css" />
     <link rel="stylesheet" href="assets/css/carousel.css" />
     <!-- NOSSO CSS-->
-    <link rel="stylesheet" href="./assets/css/aluguelCarros.css" />
+    <link rel="stylesheet" href="./assets/css/listaHoteis_Locadoras.css" />
     <link rel="stylesheet" href="./assets/css/header.css">
     <script src="https://kit.fontawesome.com/67568c9f06.js" crossorigin="anonymous"></script>
 </head>
@@ -69,26 +69,25 @@
 
         <div class="conteudo__hoteis">
             <div class="search-hotel">
-                <div class="search-inputs">
+                <div class="search-inputs cor_verde">
                     <p>para onde você vai?</p>
 
-                    <div class="input-where-to-go">
+                    <div class="input-where-to-go cor_azul_letra">
                         <label for="hotel-para"><i class="fa-solid fa-location-dot"></i> Indo para</label>
-                        <input type="text" placeholder="Para onde você vai?" />
+                        <input type="text" placeholder="Qual hotel você vai?" />
                     </div>
-                    <div class="input-where-to-go-checkin">
+                    <div class="input-where-to-go-checkin cor_azul_letra">
                         <label for="checkin"><i class="fa-solid fa-calendar-days"></i> Check-in:</label>
                         <input class="placeholder-color" type="date" placeholder="Quando você vai?" />
                     </div>
-                    <div class="input-where-to-go-checkout">
+                    <div class="input-where-to-go-checkout cor_azul_letra">
                         <label for="checkout"><i class="fa-solid fa-calendar-days"></i> Check-out:</label>
                         <input class="placeholder-color" type="date" placeholder="Quando você volta?" />
                     </div>
-                   
                     <button class="input-where-to-gohospedagemBtn">BUSCAR</button>
                 </div>
                 <div class="maps">
-                    <button class="input-where-to-mapa-btn">VER NO MAPA</button>
+                    <button class="input-where-to-mapa-btn cor_azul">VER NO MAPA</button>
                     <div class="maps-mapa">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d29255.712114491882!2d-46.67117858008114!3d-23.569735884066016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x94ce59e6f06b0f89%3A0x43617829f701baf6!2sIbirapuera%2C%20S%C3%A3o%20Paulo%20-%20SP!3m2!1d-23.5836023!2d-46.6644988!4m5!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!3m2!1d-23.555771399999998!2d-46.6395571!5e0!3m2!1spt-BR!2sbr!4v1653448723259!5m2!1spt-BR!2sbr"
@@ -106,7 +105,7 @@
 
                 <div class="list">
 
-                    <div class="hotel-card">
+                    <div class="hotel-card locadora-card">
 
                         <div class="imagem-hotel">
                             <img src="./assets/img/locadoras_lista/pagina_locadora/localiza/localiza_img1.png" alt=""
@@ -119,9 +118,9 @@
                                 <h2>Localiza</h2>
 
 
-                                <div class="info-aval">
+                                <div class="info-aval aval-locadora">
                                     <h6> avaliação </h6>
-                                    <div class="estrelas">
+                                    <div class="estrelas cor_azul">
                                         4,4
                                     </div>
                                 </div>
@@ -130,8 +129,7 @@
 
                             <div class="endereco">
                                 <p>
-                                    R. Otávio Tarquínio de Sousa, 377 - Campo Belo, São Paulo - SP
-
+                                    R. Otávio Tarquínio de Sousa, 377, Campo Belo
                                 </p>
 
                             </div>
@@ -149,61 +147,14 @@
                                 </p>
                             </div>
                             <div class="btn-hoteis">
-                                <button class="btn btn-primary .sr-only" id=" detalhes-hoteis"
+                                <button class="btn btn-primary cor_azul .sr-only" id=" detalhes-hoteis"
                                     onclick="location.href='./locadora1_localiza.html'">VER MAIS
                                     DETALHES</button>
                             </div>
                         </div>
                     </div>
-                    <div class="hotel-card">
-
-                        <div class="imagem-hotel">
-                            <img src="./assets/img/locadoras_lista/pagina_locadora/unidas/unidas_img1.png"
-                                alt="" class="rounded float-left">
-                        </div>
-
-                        <div class="card-info-hotel">
-
-                            <div class="titulo-hotel" id="titulo-hotel">
-                                <h2>Unidas</h2>
-
-
-                                <div class="info-aval">
-                                    <h6> avaliação </h6>
-                                    <div class="estrelas">
-                                        3.9
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="endereco">
-                                <p>
-                                    Praça Comandante Linneu Gomes - Vila Congonhas, São Paulo
-
-                                </p>
-                            </div>
-
-                            <div class="desc-hotel">
-                                <p>
-                                    Como segunda maior locadora do Brasil e referência em locação de frotas para
-                                    empresas, a Unidas busca sempre pela inovação e simplicidade.
-                                    Buscamos de maneira constante a melhoria da qualidade do nosso serviço, a satisfação
-                                    dos nossos clientes e a valorização das pessoas que fazem parte da nossa Companhia.
-                                    O nosso foco está na mobilidade, na eficiência das empresas e na comodidade das
-                                    pessoas. <br>
-                                    (11) 3164-9833
-
-                                </p>
-                            </div>
-                            <div class="btn-hoteis">
-                                <button class="btn btn-primary .sr-only" id=" detalhes-hoteis"
-                                    onclick="location.href='./locadora2_unidas.html'">VER MAIS
-                                    DETALHES</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hotel-card">
+                    <!-- card 2 -->
+                    <div class="hotel-card locadora-card">
 
                         <div class="imagem-hotel">
                             <img src="./assets/img/locadoras_lista/pagina_locadora/movida/movida_img1.png" alt=""
@@ -216,9 +167,9 @@
                                 <h2>Movida</h2>
 
 
-                                <div class="info-aval">
+                                <div class="info-aval aval-locadora">
                                     <h6> avaliação </h6>
-                                    <div class="estrelas">
+                                    <div class="estrelas cor_azul">
                                         4,1
                                     </div>
                                 </div>
@@ -227,7 +178,7 @@
 
                             <div class="endereco">
                                 <p>
-                                   R. Otávio Tarquínio de Sousa, 23 - Campo Belo, São Paulo - SP
+                                    R. Otávio Tarquínio de Sousa, 23, Campo Belo
                                 </p>
                             </div>
 
@@ -243,13 +194,61 @@
                                 </p>
                             </div>
                             <div class="btn-hoteis">
-                                <button class="btn btn-primary .sr-only" id=" detalhes-hoteis"
+                                <button class="btn btn-primary cor_azul .sr-only" id=" detalhes-hoteis"
                                     onclick="location.href='./locadora4_movida.html'">VER MAIS
                                     DETALHES</button>
                             </div>
                         </div>
                     </div>
-                    <div class="hotel-card">
+                    <!-- card 3 -->
+                    <div class="hotel-card locadora-card">
+
+                        <div class="imagem-hotel">
+                            <img src="./assets/img/locadoras_lista/pagina_locadora/unidas/unidas_img1.png"
+                                alt="" class="rounded float-left">
+                        </div>
+
+                        <div class="card-info-hotel">
+
+                            <div class="titulo-hotel" id="titulo-hotel">
+                                <h2>Unidas</h2>
+
+
+                                <div class="info-aval aval-locadora">
+                                    <h6> avaliação </h6>
+                                    <div class="estrelas cor_azul">
+                                        3,9
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="endereco">
+                                <p>
+                                    Praça Comandante Linneu Gomes, Vila Congonhas
+                                </p>
+                            </div>
+
+                            <div class="desc-hotel">
+                                <p>
+                                    Como segunda maior locadora do Brasil e referência em locação de frotas para
+                                    empresas, a Unidas busca sempre pela inovação e simplicidade.
+                                    Buscamos de maneira constante a melhoria da qualidade do nosso serviço, a satisfação
+                                    dos nossos clientes e a valorização das pessoas que fazem parte da nossa Companhia.
+                                    O nosso foco está na mobilidade, na eficiência das empresas e na comodidade das
+                                    pessoas. <br>
+                                    (11) 3164-9833
+                                </p>
+                            </div>
+                            <div class="btn-hoteis">
+                                <button class="btn btn-primary cor_azul .sr-only" id=" detalhes-hoteis"
+                                    onclick="location.href='./locadora2_unidas.html'">VER MAIS
+                                    DETALHES</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="hotel-card locadora-card">
 
                         <div class="imagem-hotel">
                             <img src="./assets/img/locadoras_lista/pagina_locadora/avis/avis_img1.png"
@@ -262,10 +261,10 @@
                                 <h2>Avis</h2>
 
 
-                                <div class="info-aval">
+                                <div class="info-aval aval-locadora">
                                     <h6> avaliação </h6>
-                                    <div class="estrelas">
-                                        3.3
+                                    <div class="estrelas cor_azul">
+                                        3,3
                                     </div>
                                 </div>
 
@@ -273,8 +272,7 @@
 
                             <div class="endereco">
                                 <p>
-                                    Av. Washington Luís, s/n - Aeroporto de Congonhas, São Paulo - SP
-
+                                    Av. Washington Luís, s/n - Aeroporto de Congonhas,
                                 </p>
                             </div>
 
@@ -290,62 +288,61 @@
                                 </p>
                             </div>
                             <div class="btn-hoteis">
-                                <button class="btn btn-primary .sr-only" id=" detalhes-hoteis"
+                                <button class="btn btn-primary cor_azul .sr-only" id=" detalhes-hoteis"
                                     onclick="location.href='./locadora3_avis.html'">VER MAIS
                                     DETALHES</button>
                             </div>
                         </div>
                     </div>
+                    <!-- card 5 -->
+                    <div class="hotel-card locadora-card">
 
-                    <div class="hotel-card">
+                        <div class="imagem-hotel">
+                            <img src="./assets/img/locadoras_lista/alcar.png"
+                                alt="" class="rounded float-left">
+                        </div>
 
-                    <div class="imagem-hotel">
-                        <img src="./assets/img/locadoras_lista/alcar.png" alt=""
-                            class="rounded float-left">
-                    </div>
+                        <div class="card-info-hotel">
 
-                    <div class="card-info-hotel">
-
-                        <div class="titulo-hotel" id="titulo-hotel">
-                            <h2>Alcar</h2>
+                            <div class="titulo-hotel" id="titulo-hotel">
+                                <h2>Alcar</h2>
 
 
-                            <div class="info-aval">
-                                <h6> avaliação </h6>
-                                <div class="estrelas">
-                                    3.8
+                                <div class="info-aval aval-locadora">
+                                    <h6> avaliação </h6>
+                                    <div class="estrelas cor_azul">
+                                        3,8
+                                    </div>
                                 </div>
+
                             </div>
 
-                        </div>
+                            <div class="endereco">
+                                <p>
+                                    R. Crasso, 150 - Água Branca,
+                                </p>
+                            </div>
 
-                        <div class="endereco">
-                            <p>
-                                R. Crasso, 150 - Água Branca, São Paulo - SP
-                            </p>
-                        </div>
-
-                        <div class="desc-hotel">
-                            <p>
-                               A Alcar Locadora de automóveis, é uma empresa conceituada no segmento de locação de
-                               veículos,
-                               com mais de 10 anos no mercado. A locadora é referência no mercado de locação de carros
-                               adaptados. Oferecemos automóveis para atender diversas categorias existentes, todos com
-                               alta
-                               tecnologia e qualidade para que os clientes tenham sua mobilidade garantida.<br>
-                               (11) 3202-9393
+                            <div class="desc-hotel">
+                                <p>
+                                    A Alcar Locadora de automóveis, é uma empresa conceituada no segmento de locação de
+                                    veículos,
+                                    com mais de 10 anos no mercado. A locadora é referência no mercado de locação de
+                                    carros
+                                    adaptados. Oferecemos automóveis para atender diversas categorias existentes, todos
+                                    com
+                                    alta
+                                    tecnologia e qualidade para que os clientes tenham sua mobilidade garantida.<br>
+                                    (11) 3202-9393
 
 
-                            </p>
-                        </div>
-                        <div class="btn-hoteis">
-                            <button class="btn btn-primary .sr-only" id=" detalhes-hoteis"
-                                onclick="location.href='./locadora5_alcar.html'">VER MAIS
-                                DETALHES</button>
-                        </div>
-                    </div>
-                    </div>
-              
+                                </p>
+                            </div>
+                            <div class="btn-hoteis">
+                                <button class="btn btn-primary cor_azul .sr-only" id=" detalhes-hoteis"
+                                    onclick="location.href='./locadora5_alcar.html'">VER MAIS
+                                    DETALHES</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -355,15 +352,14 @@
             </div> -->
         </div>
 
-    </div>
-    <footer class="footer__hospedagem">
-        <div class="footer__links" id="footer__links_hospedagem">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-        </div>
-        <h6>Copyright &copy; 2022 FIAP TRAVELLER - Todos os direitos reservados</h6>
-    </footer>
+        <footer class="footer__hospedagem">
+            <div class="footer__links" id="footer__links_hospedagem">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <h6>Copyright &copy; 2022 FIAP TRAVELLER - Todos os direitos reservados</h6>
+        </footer>
     </div>
 
     <!-- Javascript -->
