@@ -3,6 +3,7 @@
 body {
     padding: 0px 50px;
     font-family: 'Montserrat';
+    font-size: inherit;
 }
 
 .link_login:hover,
