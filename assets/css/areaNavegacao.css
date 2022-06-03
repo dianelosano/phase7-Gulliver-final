@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+.topo__inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e28065;
+}
+
+.areaNavegacao {
+    font-family: 'Montserrat';
+    margin-top: 15px;
+}
+
+.areaNavegacao__link {
+    text-decoration: none;
+    color: #e28065;
+    font-weight: 500;
+}
+
+.areaNavegacao__link:hover {
+    text-decoration: none;
+    color: #c96438;
+}
+
+.icone_nav {
+    color: #e28065;
+    margin-right: 2px;
+}
+
+.icone_nav:hover {
+    color: #c96438;
+}
+
+#increase-font,
+#decrease-font {
+    font-size: large;
+    font-weight: 600;
+    border-style: none;
+    background-color: #FFFFFF;
+    color: #e28065;
+    padding: 3px 10px;
+}
+
+#increase-font:hover,
+#decrease-font:hover {
+    background-color: #e28065;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}

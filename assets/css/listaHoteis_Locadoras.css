@@ -7,8 +7,12 @@ body {
 
 .link_login:hover, #dropdownMenuLink:hover {
     box-shadow: inset 2px 2px 2px  rgba(0, 0, 0, 0.668);
+    color: #fff;
+    text-decoration: none;
 }
 .link_login:active {
+    color: #fff;
+    text-decoration: none;
     background-color: #e97b5d;
 }
 .link_login {
@@ -23,25 +27,7 @@ body {
     font-weight: 500;
     box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.483);
 }
-button,
-#increase-font,
-#decrease-font {
-    font-size: large;
-    font-weight: 600;
-    border-style: none;
-    width: 2.8rem;
-    height: 2rem;
-    background-color: #FFFFFF;
-    color: #e28065;
-}
 
-#increase-font:hover,
-#decrease-font:hover {
-    background-color: #e28065;
-    color: #fff;
-    border-radius: 30px;
-    cursor: pointer;
-}
 .container__principal {
     max-width: 100%;
 }
@@ -60,11 +46,9 @@ button,
     max-width: 100%;
 }
 
-p {
-    color: #FFFFFF;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-size: x-large;
+i {
+    color: #444343;
+    margin-right: 5px;
 }
 
 .search-hotel {
@@ -78,6 +62,8 @@ p {
     background-color: #e28065;
     width: 100%;
     padding: 10px 0px;
+    color: #fff;
+    font-weight: 500;
 }
 
 .cor_verde {
@@ -117,17 +103,6 @@ p {
     border-color: #6f9c87;
 }
 
-.btn-primary,
-#detalhes-hoteis {
-    background-color: #9AC1AF;
-    color: #FFFFFF;
-    border-style: none;
-    border-radius: 1.5rem;
-    width: 15rem;
-    font-weight: 500;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.568);
-}
-
 .btn-hoteis {
     margin-top: 2rem;
     display: flex;
@@ -135,15 +110,32 @@ p {
     justify-content: right;
 }
 
-.btn-hoteis button:hover {
-    background-color: #023555;
+.btn__verDetalhes {
+    background-color: #9AC1AF;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 1.5rem;
+    width: 15rem;
+    padding: 7px 10px;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.568);
+}
+
+.btn__verDetalhes:hover {
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.568);
 }
-.btn-hoteis button:active {
+.btn__verDetalhes:active {
+    background-color: #6f9c87;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.568);
+}
+
+.cor_azul:active {
+    background-color: #10486b;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.568);
 }
 #retorno-hoteis {
     color: black;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
@@ -284,7 +276,7 @@ input {
     flex-direction: row;
     justify-content: left;
     color: #e28065;
-    margin-top: 0.8rem;
+    font-weight: 500;
 }
 
 .aval-locadora {
@@ -346,12 +338,6 @@ input {
     }
 }
 
-@media (max-width: 1500px) {
-    .info-aval h6 {
-        display: none;
-    }
-}
-
 @media (max-width: 1300px) {
 
 .search-inputs p {
@@ -366,13 +352,6 @@ input {
 }
 
 }
-
- @media (max-width: 1250px) {
-    .desc-hotel p {
-        display: none;
-    }
-}   
-
 
 @media (max-width: 972px) {
     .search-hotel {

@@ -20,7 +20,7 @@ body {
 .sectionAreas p {
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -66,10 +66,11 @@ body {
 }
 
 .sectionLista__card {
-    border: 1px solid #efb260;
+    border: 1px solid #03578c9b;
     border-radius: 15px;
     width: 49%;
     margin: 30px 0;
+    box-shadow: 1px 1px 4px #03578c9b;
   }
   
   .sectionLista__cardImg img{
@@ -106,14 +107,14 @@ body {
   }
   
   .avaliacaoText {
-    color: #efb260;
+    color: #03588c;
     font-size: 1rem;
     text-align: center;
   }
   
   .avaliacaoNr {
     color: #fff;
-    background-color: #efb260;
+    background-color: #03588c;
     font-size: 0.6rem;
     border-radius: 50%;
     padding: 5px;
@@ -126,11 +127,11 @@ body {
   
   .cardText__linkPagina {
     font-size: 0.8rem;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    background-color: #efb260;
+    background-color: #03588c;
     border-radius: 40px;
     padding: 7px 40px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.476);
@@ -151,7 +152,7 @@ body {
 }
 
 .cardText__linkPagina:active {
-    background-color: #dc8e28;
+    background-color: #10486b;
 }
 
 /* RESPONSIVIDADE ------------------------------------------------------------------ */
@@ -175,6 +176,9 @@ body {
   .cardText__linkPagina {
     font-weight: 500;
     padding: 7px 30px;
+  }
+  .sectionAreas p {
+    font-size: 1rem;
   }
 }
 

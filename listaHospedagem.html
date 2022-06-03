@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/img/header-logo/logo_mobile1 1.svg">    
+    <link rel="icon" href="./assets/img/header-logo/logo_mobile1 1.svg">
     <!--Nome da pagina-->
     <title>Traveller | Hospedagem</title>
     <!-- CSS -->
@@ -22,6 +22,8 @@
     <!-- NOSSO CSS-->
     <link rel="stylesheet" href="./assets/css/listaHoteis_Locadoras.css" />
     <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/areaNavegacao.css">
+
     <script src="https://kit.fontawesome.com/67568c9f06.js" crossorigin="anonymous"></script>
 </head>
 
@@ -31,49 +33,63 @@
         <div class="header__botoes">
             <div class="dropdown">
                 <a class="btn btn-secondary dropdown-toggle .sr-only" href="#" role="button" id="dropdownMenuLink"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Menu
-            </a>
-            
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="./index.html">Início</a>
-                <a class="dropdown-item" href="./gastronomia.html">Gastronomia</a>
-                <a class="dropdown-item" href="./pontosturisticos.html">Pontos Turísticos</a>
-                <a class="dropdown-item" href="./aluguelCarros.html">Alugue seu carro</a>
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Menu
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="./index.html">Início</a>
+                    <a class="dropdown-item" href="./gastronomia.html">Gastronomia</a>
+                    <a class="dropdown-item" href="./pontosturisticos.html">Pontos Turísticos</a>
+                    <a class="dropdown-item" href="./aluguelCarros.html">Alugue seu carro</a>
+                </div>
+            </div>
+            <div class="btnLogin">
+                <a class="link_login" href="login.html">Fazer login</a>
             </div>
         </div>
-        <div class="btnLogin">
-            <a class="link_login" href="login.html">Fazer login</a>
+        <div class="header__logo">
+            <a href="./index.html" title="Voltar ao início">
+                <img src="./assets/img/logo.jpeg" alt="Logo">
+            </a>
         </div>
-    </div>
-    <div class="header__logo">
-        <a href="./index.html" title="Voltar ao início">
-            <img src="./assets/img/logo.jpeg" alt="Logo">
-        </a>
-    </div>
-    <div class="header__logo__mobile">
-        <a href="./index.html" title="Voltar ao início">
-            <img src="./assets/img/header-logo/logo_mobile1 1.svg" alt="Logo">
-        </a>
-    </div>
+        <div class="header__logo__mobile">
+            <a href="./index.html" title="Voltar ao início">
+                <img src="./assets/img/header-logo/logo_mobile1 1.svg" alt="Logo">
+            </a>
+        </div>
     </header>
     <!-- FIM HEADER -->
 
+    <!-- AREA DE NAVEGACAO -->
+    <div class="topo__inicio">
+        <div class="areaNavegacao">
+            <a class="areaNavegacao__link" href="./index.html" title="Voltar para o Início"><i
+                    class="fa-solid fa-house icone_nav"></i> Início </a>
+            <a class="areaNavegacao__link" href="" title="Você está aqui">&nbsp; > &nbsp; <i class="fa-solid fa-hotel icone_nav"></i> Onde se
+                hospedar</a>
+        </div>
+        <!--div botoes acessibilidade-->
+        <div class="btn-container">
+            <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+            <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+        </div>
+    </div>
 
     <div class="container__principal">
         <!--imagem principal-->
         <div class="img__hero">
-                <img src="./assets/img/hoteis_hospedagem/placesearch 1 (1).svg"
-                    alt="Esta e uma imagem do logo da Traveller" />
+            <img src="./assets/img/hoteis_hospedagem/placesearch 1 (1).svg"
+                alt="Esta e uma imagem do logo da Traveller" />
         </div>
 
         <div class="conteudo__hoteis">
-                <div class="search-hotel">
-                    <div class="search-inputs">
-                        <p>para onde você vai?</p>
-                        
-                        <div class="input-where-to-go">
-                            <label for="hotel-para"><i class="fa-solid fa-location-dot"></i> Indo para</label>
+            <div class="search-hotel">
+                <div class="search-inputs">
+                    <p>para onde você vai?</p>
+
+                    <div class="input-where-to-go">
+                        <label for="hotel-para"><i class="fa-solid fa-location-dot"></i> Indo para</label>
                         <input type="text" placeholder="Qual hotel você vai?" />
                     </div>
                     <div class="input-where-to-go-checkin">
@@ -87,286 +103,296 @@
                     <div class="input-where-to-go-hospedes">
                         <label for="hospedes"><i class="fa-solid fa-person-circle-plus"></i> Hóspedes:</label>
                         <input type="number" placeholder="Quantas pessoas vão?" />
-                        
+
                     </div>
                     <button class="input-where-to-gohospedagemBtn">BUSCAR</button>
                 </div>
-                    <div class="maps">
-                        <button class="input-where-to-mapa-btn">VER NO MAPA</button>
-                            <div class="maps-mapa">
-                                <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d29255.712114491882!2d-46.67117858008114!3d-23.569735884066016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x94ce59e6f06b0f89%3A0x43617829f701baf6!2sIbirapuera%2C%20S%C3%A3o%20Paulo%20-%20SP!3m2!1d-23.5836023!2d-46.6644988!4m5!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!3m2!1d-23.555771399999998!2d-46.6395571!5e0!3m2!1spt-BR!2sbr!4v1653448723259!5m2!1spt-BR!2sbr"
-                                width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
+                <div class="maps">
+                    <button class="input-where-to-mapa-btn">VER NO MAPA</button>
+                    <div class="maps-mapa">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d29255.712114491882!2d-46.67117858008114!3d-23.569735884066016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x94ce59e6f06b0f89%3A0x43617829f701baf6!2sIbirapuera%2C%20S%C3%A3o%20Paulo%20-%20SP!3m2!1d-23.5836023!2d-46.6644988!4m5!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!3m2!1d-23.555771399999998!2d-46.6395571!5e0!3m2!1spt-BR!2sbr!4v1653448723259!5m2!1spt-BR!2sbr"
+                            width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
-                
-                    <div class="hotel-list">
-                        <div class="num-hoteis">
-                        <p id="retorno-hoteis">São Paulo: 1.900 hoteis encontrados</p>
-                        </div>
-                        <!--inicio dos cards-->
+            </div>
 
-                        <div class="list">
-
-                        <div class="hotel-card">
-
-                            <div class="imagem-hotel">
-                                <img src="./assets/img/hoteis_hospedagem/pagina_hotel/sheraton/sheraton_img1.png"
-                                    alt="" class="rounded float-left">
-                            </div>
-
-                            <div class="card-info-hotel">
-
-                                <div class="titulo-hotel" id="titulo-hotel">
-                                    <h2>Sheraton São Paulo WTC</h2>
-
-
-                                    <div class="info-aval">
-                                        <h6> avaliação </h6>
-                                        <div class="estrelas">
-                                            4,7
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="endereco">
-                                    <p>
-                                        Av. das Nações Unidas, 12559 - Brooklin Novo
-                                    </p>
-                                        
-                                </div>
-
-                                <div class="desc-hotel">
-                                    <p>
-                                        Inaugurado em 1995, o Sheraton São Paulo WTC Hotel já nasceu com a marca do pioneirismo, sendo o primeiro hotel na região da Avenida Berrini e ajudando a transformá-la num dos principais polos de negócios da capital paulista.
-                                    </p>
-                                    </div>
-                                <div class="btn-hoteis">
-                                    <button class="btn btn-primary .sr-only" id=" detalhes-hoteis"
-                                        onclick="location.href='./hotel1_sheraton.html'">VER MAIS
-                                        DETALHES</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hotel-card">
-
-                            <div class="imagem-hotel">
-                                <img src="./assets/img/hoteis_hospedagem/pagina_hotel/renaissance/renaissance_img2.png"
-                                    alt="" class="rounded float-left">
-                            </div>
-
-                            <div class="card-info-hotel">
-
-                                <div class="titulo-hotel" id="titulo-hotel">
-                                    <h2>Renaissance São Paulo</h2>
-
-
-                                    <div class="info-aval">
-                                        <h6> avaliação </h6>
-                                        <div class="estrelas">
-                                            4,7
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="endereco">
-                                    <p>
-                                        Alameda Santos, 2233 - São Paulo 
-                                    </p>
-                                </div>
-
-                                <div class="desc-hotel">
-                                    <p>
-                                        Dispondo de uma arquitetura deslumbrante e com uma decoração elegante, o 5 estrelas Renaissance São Paulo Hotel está idealmente situado no bairro de Jardins. O hotel e supera as expectativas e surpreende a todos seus hóspedes e clientes.
-                                    </p>
-                                    </div>
-                                <div class="btn-hoteis">
-                                    <button class="btn btn-primary .sr-only" id=" detalhes-hoteis"
-                                        onclick="location.href='./hotel6_Renaissance.html'">VER MAIS
-                                        DETALHES</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hotel-card">
-
-                            <div class="imagem-hotel">
-                                <img src="./assets/img/hoteis_hospedagem/pagina_hotel/bourbon/bourbon_img1.png"
-                                    alt="" class="rounded float-left">
-                            </div>
-
-                            <div class="card-info-hotel">
-
-                                <div class="titulo-hotel" id="titulo-hotel">
-                                    <h2>Bourbon Convention Ibirapuera</h2>
-
-
-                                    <div class="info-aval">
-                                        <h6> avaliação </h6>
-                                        <div class="estrelas">
-                                            4,5
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="endereco">
-                                    <p>
-                                        Avenida Ibirapuera, 2927 - Moema 
-                                    </p>
-                                </div>
-
-                                <div class="desc-hotel">
-                                    <p>
-                                        O Bourbon Convention Ibirapuera oferece instalações para pessoas que procuram agilidade e serviço de qualidade. O hotel se destaca por estar localizado em um dos bairros mais elegantes, tranquilos e arborizados de São Paulo. 
-                                    </p>
-                                </div>
-                                <div class="btn-hoteis">
-                                    <button class="btn btn-primary .sr-only" id=" detalhes-hoteis"
-                                        onclick="location.href='./hotel7_Bourbon.html'">VER MAIS
-                                        DETALHES</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hotel-card">
-
-                            <div class="imagem-hotel">
-                                <img src="./assets/img/hoteis_hospedagem/pagina_hotel/bluepaulista/bluepaulista_img1.png"
-                                    alt="" class="rounded float-left">
-                            </div>
-
-                            <div class="card-info-hotel">
-
-                                <div class="titulo-hotel" id="titulo-hotel">
-                                    <h2>Blue Tree Premium Paulista</h2>
-
-
-                                    <div class="info-aval">
-                                        <h6> avaliação </h6>
-                                        <div class="estrelas">
-                                            4,5
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="endereco">
-                                    <p>
-                                        Rua Peixoto Gomide, 707 - Bela Vista 
-                                    </p>
-                                </div>
-
-                                <div class="desc-hotel">
-                                    <p>
-                                        Situado a 160 metros da Avenida Paulista, o Blue Tree Paulista tem uma localização excelente em SP. Este hotel com Wi-Fi gratuito e piscina coberta oferece fácil acesso ao transporte público e fica em meio a teatros, museus, shoppings e restaurantes.
-                                    </p>
-                                </div>
-                                <div class="btn-hoteis">
-                                    <button class="btn btn-primary .sr-only" id=" detalhes-hoteis"
-                                        onclick="location.href='./hotel5_BlueT2.html'">VER MAIS
-                                        DETALHES</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hotel-card">
-
-                            <div class="imagem-hotel">
-                                <img src="./assets/img/hoteis_hospedagem/pagina_hotel/bluemorumbi/bluemorumbi_img1.png"
-                                    alt="" class="rounded float-left">
-                            </div>
-
-                            <div class="card-info-hotel">
-
-                                <div class="titulo-hotel" id="titulo-hotel">
-                                    <h2>Blue Tree Premium Morumbi</h2>
-
-
-                                    <div class="info-aval">
-                                        <h6> avaliação </h6>
-                                        <div class="estrelas">
-                                            4,4
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="endereco">
-                                    <p>
-                                        Av. Roque Petroni Júnior, 1000 - Vila Gertrudes
-                                    </p>
-                                </div>
-
-                                <div class="desc-hotel">
-                                    <p>
-                                        O Blue Tree Premium Morumbi é moderno e com atenção aos detalhes. Para o conforto e praticidade de sua viagem à SP, o hotel está localizado em frente aos Shoppings Morumbi e Market Place, e ao lado da região de escritórios da Berrini. 
-                                    </p>
-                                </div>
-                                <div class="btn-hoteis">
-                                    <button class="btn btn-primary .sr-only" id=" detalhes-hoteis"
-                                        onclick="location.href='./hotel4_BlueT1.html'">VER MAIS
-                                        DETALHES</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hotel-card">
-
-                            <div class="imagem-hotel">
-                                <img src="./assets/img/hoteis_hospedagem/pagina_hotel/comfort/comfort_img1.png"
-                                    alt="" class="rounded float-left">
-                            </div>
-
-                            <div class="card-info-hotel">
-
-                                <div class="titulo-hotel" id="titulo-hotel">
-                                    <h2>Comfort Ibirapuera</h2>
-
-
-                                    <div class="info-aval">
-                                        <h6> avaliação </h6>
-                                        <div class="estrelas">
-                                            4,4
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="endereco">
-                                    <p>
-                                        Av. Sabiá, 825 - Moema 
-                                    </p>
-                                </div>
-
-                                <div class="desc-hotel">
-                                    <p>
-                                        Dispondo de uma localização excelente em frente à estação de metrô Moema e a apenas 1,5 km do Parque Ibirapuera, o Comfort fica no bairro badalado de Moema, em São Paulo. Uma academia e uma piscina na cobertura estão disponíveis.
-                                    </p>
-                                </div>
-                                <div class="btn-hoteis">
-                                    <button class="btn btn-primary .sr-only" id=" detalhes-hoteis"
-                                        onclick="location.href='./hotel8_Comfort.html'">VER MAIS
-                                        DETALHES</button>
-                                </div>
-                            </div>
-                        </div> 
-                        </div>                
+            <div class="hotel-list">
+                <div class="num-hoteis">
+                    <p id="retorno-hoteis">São Paulo: 1.900 hoteis encontrados</p>
                 </div>
+                <!--inicio dos cards-->
+
+                <div class="list">
+
+                    <div class="hotel-card">
+
+                        <div class="imagem-hotel">
+                            <img src="./assets/img/hoteis_hospedagem/pagina_hotel/sheraton/sheraton_img1.png" alt=""
+                                class="rounded float-left">
+                        </div>
+
+                        <div class="card-info-hotel">
+
+                            <div class="titulo-hotel" id="titulo-hotel">
+                                <h2>Sheraton São Paulo WTC</h2>
+
+
+                                <div class="info-aval">
+                                    <div class="estrelas">
+                                        4,7
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="endereco">
+                                <p>
+                                    Av. das Nações Unidas, 12559 - Brooklin Novo
+                                </p>
+
+                            </div>
+
+                            <div class="desc-hotel">
+                                <p>
+                                    Inaugurado em 1995, o Sheraton foi o primeiro hotel na região da Av. Berrini e
+                                    ajudou a transformá-la num dos principais polos de negócios da capital paulista.
+                                </p>
+                            </div>
+                            <div>
+                                <p><i class="fa-solid fa-user-tie"></i> Negócios</p>
+                            </div>
+                            <div class="btn-hoteis">
+                                <button class="btn__verDetalhes .sr-only"
+                                    onclick="location.href='./hotel1_sheraton.html'">VER MAIS
+                                    DETALHES</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotel-card">
+
+                        <div class="imagem-hotel">
+                            <img src="./assets/img/hoteis_hospedagem/pagina_hotel/renaissance/renaissance_img2.png"
+                                alt="" class="rounded float-left">
+                        </div>
+
+                        <div class="card-info-hotel">
+
+                            <div class="titulo-hotel" id="titulo-hotel">
+                                <h2>Renaissance São Paulo</h2>
+
+
+                                <div class="info-aval">
+                                    <div class="estrelas">
+                                        4,7
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="endereco">
+                                <p>
+                                    Alameda Santos, 2233 - São Paulo
+                                </p>
+                            </div>
+
+                            <div class="desc-hotel">
+                                <p>
+                                    Dispondo de uma arquitetura deslumbrante e com uma decoração elegante, o hotel e
+                                    supera as expectativas e surpreende a todos seus hóspedes e clientes.
+                                </p>
+                                <p><i class="fa-solid fa-umbrella-beach"></i> Turismo</p>
+                            </div>
+                            <div class="btn-hoteis">
+                                <button class="btn__verDetalhes .sr-only"
+                                    onclick="location.href='./hotel6_Renaissance.html'">VER MAIS
+                                    DETALHES</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotel-card">
+
+                        <div class="imagem-hotel">
+                            <img src="./assets/img/hoteis_hospedagem/pagina_hotel/bourbon/bourbon_img1.png" alt=""
+                                class="rounded float-left">
+                        </div>
+
+                        <div class="card-info-hotel">
+
+                            <div class="titulo-hotel" id="titulo-hotel">
+                                <h2>Bourbon Convention Ibirapuera</h2>
+
+
+                                <div class="info-aval">
+                                    <div class="estrelas">
+                                        4,5
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="endereco">
+                                <p>
+                                    Avenida Ibirapuera, 2927 - Moema
+                                </p>
+                            </div>
+
+                            <div class="desc-hotel">
+                                <p>
+                                    O Bourbon Convention Ibirapuera se destaca por oferecer instalações para pessoas que
+                                    procuram agilidade e serviço de qualidade.
+                                </p>
+                                <p><i class="fa-solid fa-briefcase"></i> Trabalho</p>
+
+                            </div>
+                            <div class="btn-hoteis">
+                                <button class="btn__verDetalhes .sr-only"
+                                    onclick="location.href='./hotel7_Bourbon.html'">VER MAIS
+                                    DETALHES</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotel-card">
+
+                        <div class="imagem-hotel">
+                            <img src="./assets/img/hoteis_hospedagem/pagina_hotel/bluepaulista/bluepaulista_img1.png"
+                                alt="" class="rounded float-left">
+                        </div>
+
+                        <div class="card-info-hotel">
+
+                            <div class="titulo-hotel" id="titulo-hotel">
+                                <h2>Blue Tree Premium Paulista</h2>
+
+
+                                <div class="info-aval">
+                                    <div class="estrelas">
+                                        4,5
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="endereco">
+                                <p>
+                                    Rua Peixoto Gomide, 707 - Bela Vista
+                                </p>
+                            </div>
+
+                            <div class="desc-hotel">
+                                <p>
+                                    Situado a 160 metros da Avenida Paulista, o Blue Tree Paulista oferece fácil acesso
+                                    ao transporte público e fica em meio a teatros, museus, shoppings e restaurantes.
+                                </p>
+                                <p><i class="fa-solid fa-umbrella-beach"></i> Turismo</p>
+                            </div>
+                            <div class="btn-hoteis">
+                                <button class="btn__verDetalhes .sr-only"
+                                    onclick="location.href='./hotel5_BlueT2.html'">VER MAIS
+                                    DETALHES</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotel-card">
+
+                        <div class="imagem-hotel">
+                            <img src="./assets/img/hoteis_hospedagem/pagina_hotel/bluemorumbi/bluemorumbi_img1.png"
+                                alt="" class="rounded float-left">
+                        </div>
+
+                        <div class="card-info-hotel">
+
+                            <div class="titulo-hotel" id="titulo-hotel">
+                                <h2>Blue Tree Premium Morumbi</h2>
+
+
+                                <div class="info-aval">
+                                    <div class="estrelas">
+                                        4,4
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="endereco">
+                                <p>
+                                    Av. Roque Petroni Júnior, 1000 - Vila Gertrudes
+                                </p>
+                            </div>
+
+                            <div class="desc-hotel">
+                                <p>
+                                    O Blue Tree Premium Morumbi é moderno e está localizado em frente aos Shoppings
+                                    Morumbi e Market Place, e ao lado da região de escritórios da Berrini.
+                                </p>
+                                <p><i class="fa-solid fa-briefcase"></i> Trabalho</p>
+                            </div>
+                            <div class="btn-hoteis">
+                                <button class="btn__verDetalhes .sr-only"
+                                    onclick="location.href='./hotel4_BlueT1.html'">VER MAIS
+                                    DETALHES</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotel-card">
+
+                        <div class="imagem-hotel">
+                            <img src="./assets/img/hoteis_hospedagem/pagina_hotel/comfort/comfort_img1.png" alt=""
+                                class="rounded float-left">
+                        </div>
+
+                        <div class="card-info-hotel">
+
+                            <div class="titulo-hotel" id="titulo-hotel">
+                                <h2>Comfort Ibirapuera</h2>
+
+
+                                <div class="info-aval">
+                                    <div class="estrelas">
+                                        4,4
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="endereco">
+                                <p>
+                                    Av. Sabiá, 825 - Moema
+                                </p>
+                            </div>
+
+                            <div class="desc-hotel">
+                                <p>
+                                    Dispondo de uma localização excelente em frente à estação de metrô Moema e a apenas
+                                    1,5 km do Parque Ibirapuera, o Comfort fica no bairro badalado de Moema.
+                                </p>
+                                <p><i class="fa-solid fa-umbrella-beach"></i> Turismo</p>
+
+                            </div>
+                            <div class="btn-hoteis">
+                                <button class="btn__verDetalhes .sr-only"
+                                    onclick="location.href='./hotel8_Comfort.html'">VER MAIS
+                                    DETALHES</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- <div class="proxima-pagina">
                 <a href="">>> Proxima</a>
             </div> -->
         </div>
 
-    <footer class="footer__hospedagem">
-        <div class="footer__links" id="footer__links_hospedagem">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-        </div>
-        <h6>Copyright &copy; 2022 FIAP TRAVELLER - Todos os direitos reservados</h6>
-    </footer>
-</div>
+        <footer class="footer__hospedagem">
+            <div class="footer__links" id="footer__links_hospedagem">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <h6>Copyright &copy; 2022 FIAP TRAVELLER - Todos os direitos reservados</h6>
+        </footer>
+    </div>
 
     <!-- Javascript -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>

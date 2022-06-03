@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/img/header-logo/logo_mobile1 1.svg">
     <!--Nome da pagina-->
-    <title>Traveller | Locação</title>
+    <title>Traveller | Aluguel de Carros</title>
     <!-- CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
@@ -22,6 +22,7 @@
     <!-- NOSSO CSS-->
     <link rel="stylesheet" href="./assets/css/listaHoteis_Locadoras.css" />
     <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/areaNavegacao.css">
     <script src="https://kit.fontawesome.com/67568c9f06.js" crossorigin="anonymous"></script>
 </head>
 
@@ -59,6 +60,19 @@
     </header>
     <!-- FIM HEADER -->
 
+     <!-- AREA DE NAVEGACAO -->
+     <div class="topo__inicio">
+        <div class="areaNavegacao">
+            <a class="areaNavegacao__link" href="./index.html" title="Voltar para o Início"><i
+                    class="fa-solid fa-house icone_nav"></i> Início </a>
+            <a class="areaNavegacao__link" href="" title="Você está aqui">&nbsp; > &nbsp; <i class="fa-solid fa-location-dot icone_nav"></i> Aluguel de Carros</a>
+        </div>
+        <!--div botoes acessibilidade-->
+        <div class="btn-container">
+            <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+            <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+        </div>
+    </div>
 
     <div class="container__principal">
         <!--imagem principal-->
@@ -119,7 +133,6 @@
 
 
                                 <div class="info-aval aval-locadora">
-                                    <h6> avaliação </h6>
                                     <div class="estrelas cor_azul">
                                         4,4
                                     </div>
@@ -137,17 +150,14 @@
                             <div class="desc-hotel">
                                 <p>
                                     A Localiza Hertz é uma rede lojas especializadas em aluguel de carros
-                                    que atua nas principais cidades e aeroportos do Brasil e também em diversos
-                                    países da América Latina, como Argentina, Paraguai, Colômbia, e Equador.
-                                    Possui mais de 600 agências e a maior frota de veículos do Brasil.
+                                    que atua nas principais cidades e aeroportos do Brasil e possui mais de 600 agências e a maior frota de veículos do Brasil.
                                     <br>
                                     Aberto das 06:00 á 00:00 
-                                   <p> <i class="fa-solid fa-phone"></i> 0800 979 2020</p>
-
                                 </p>
+                                <p> <i class="fa-solid fa-phone"></i> 0800 979 2020</p>
                             </div>
                             <div class="btn-hoteis">
-                                <button class="btn btn-primary cor_azul .sr-only" id=" detalhes-hoteis"
+                                <button class="btn__verDetalhes cor_azul .sr-only"
                                     onclick="location.href='./locadora1_localiza.html'">VER MAIS
                                     DETALHES</button>
                             </div>
@@ -169,7 +179,6 @@
 
 
                                 <div class="info-aval aval-locadora">
-                                    <h6> avaliação </h6>
                                     <div class="estrelas cor_azul">
                                         4,1
                                     </div>
@@ -185,17 +194,12 @@
 
                             <div class="desc-hotel">
                                 <p>
-                                    A Movida se destaca como uma das maiores companhias de locação de veículos do
-                                    Brasil, e como a mais reconhecida pelos consumidores no quesito inovação,
-                                    oferecendo soluções que buscam proporcionar uma experiência exclusiva por meio
-                                    de uma oferta de serviços e produtos diferenciada e alianças estratégicas com
-                                    montadoras e concessionárias e locadoras.
-                                    <p> <i class="fa-solid fa-phone"></i> 0800 606 8686 </p>
-
+                                    A Movida se destaca como uma das maiores companhias de locação de veículos do Brasil, e como a mais reconhecida pelos consumidores no quesito inovação.
                                 </p>
+                                <p> <i class="fa-solid fa-phone"></i> 0800 606 8686 </p>
                             </div>
                             <div class="btn-hoteis">
-                                <button class="btn btn-primary cor_azul .sr-only" id=" detalhes-hoteis"
+                                <button class="btn__verDetalhes cor_azul .sr-only"
                                     onclick="location.href='./locadora4_movida.html'">VER MAIS
                                     DETALHES</button>
                             </div>
@@ -216,7 +220,6 @@
 
 
                                 <div class="info-aval aval-locadora">
-                                    <h6> avaliação </h6>
                                     <div class="estrelas cor_azul">
                                         3,9
                                     </div>
@@ -232,17 +235,12 @@
 
                             <div class="desc-hotel">
                                 <p>
-                                    Como segunda maior locadora do Brasil e referência em locação de frotas para
-                                    empresas, a Unidas busca sempre pela inovação e simplicidade.
-                                    Buscamos de maneira constante a melhoria da qualidade do nosso serviço, a satisfação
-                                    dos nossos clientes e a valorização das pessoas que fazem parte da nossa Companhia.
-                                    O nosso foco está na mobilidade, na eficiência das empresas e na comodidade das
-                                    pessoas. 
-                                    <p><i class="fa-solid fa-phone"></i> (11) 3164-9833</p>
+                                    Como segunda maior locadora do Brasil e referência em locação de frotas para empresas, a Unidas busca sempre pela inovação e simplicidade. 
                                 </p>
+                                <p><i class="fa-solid fa-phone"></i> (11) 3164-9833</p>
                             </div>
                             <div class="btn-hoteis">
-                                <button class="btn btn-primary cor_azul .sr-only" id=" detalhes-hoteis"
+                                <button class="btn__verDetalhes cor_azul .sr-only"
                                     onclick="location.href='./locadora2_unidas.html'">VER MAIS
                                     DETALHES</button>
                             </div>
@@ -263,7 +261,6 @@
 
 
                                 <div class="info-aval aval-locadora">
-                                    <h6> avaliação </h6>
                                     <div class="estrelas cor_azul">
                                         3,8
                                     </div>
@@ -279,19 +276,12 @@
 
                             <div class="desc-hotel">
                                 <p>
-                                    A Alcar Locadora é uma empresa conceituada por possuir mais de 10 anos e ser
-                                    referência no mercado de locação de
-                                    carros adaptados. Oferecemos automóveis para atender diversas categorias existentes,
-                                    todos
-                                    com alta tecnologia e qualidade para que os clientes tenham sua mobilidade
-                                    garantida.<br>
-                                   <p> <i class="fa-solid fa-phone"></i> (11) 3202-9393 </p>
-
-
+                                    A Alcar Locadora é uma empresa conceituada por possuir mais de 10 anos e ser referência no mercado de locação de carros adaptados, oferecemos automóveis para atender diversas categorias.
                                 </p>
+                                <p> <i class="fa-solid fa-phone"></i> (11) 3202-9393 </p>
                             </div>
                             <div class="btn-hoteis">
-                                <button class="btn btn-primary cor_azul .sr-only" id=" detalhes-hoteis"
+                                <button class="btn__verDetalhes cor_azul .sr-only"
                                     onclick="location.href='./locadora5_alcar.html'">VER MAIS
                                     DETALHES</button>
                             </div>
@@ -312,7 +302,6 @@
 
 
                                 <div class="info-aval aval-locadora">
-                                    <h6> avaliação </h6>
                                     <div class="estrelas cor_azul">
                                         3,3
                                     </div>
@@ -328,11 +317,7 @@
 
                             <div class="desc-hotel">
                                 <p>
-                                    A Avis Rent a Car é das principais locadoras de veículos de todo o mundo e surgiu em
-                                    1946.
-                                    Atualmente, a locadora é uma das gigantes globais, com presença em mais de 175
-                                    países com
-                                    veículos para aluguel diário e terceirização de frota para empresas. <br>
+                                    A Avis Rent a Car é das principais locadoras de veículos de todo o mundo com presença em mais de 175 países com veículos para aluguel diário e terceirização para empresas. <br>
                                    <p> <i class="fa-solid fa-phone"></i> (11) 2155-2847</p>
 
                                 </p>

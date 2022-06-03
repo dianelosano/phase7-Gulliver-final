@@ -5,6 +5,11 @@ body {
     font-family: 'Montserrat';
 }
 
+.link_login:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
 /* SEÇÃO INTRO ----------------------------------------------------- */
 .sectionIntro {
     margin: 30px 0;

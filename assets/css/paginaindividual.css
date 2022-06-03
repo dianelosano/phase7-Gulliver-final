@@ -6,7 +6,9 @@ body {
 }
 
 /* PONTOS TURISTICOS - CULTURA E HISTORIA */
-
+.link_login {
+    font-family: 'Montserrat';
+}
 .local {
     margin-bottom: 100px;
 }
