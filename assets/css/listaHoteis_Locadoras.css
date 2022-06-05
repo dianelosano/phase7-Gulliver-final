@@ -70,6 +70,10 @@ i {
     background-color: #6f9c87;
 }
 
+.cor_laranja {
+    color: #e28065;
+}
+
 .card-info-hotel {
     width: 70%;
     margin-left: 30px;
@@ -97,6 +101,7 @@ i {
     padding: 20px;
     display: flex;
     justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.28);
 }
 
 .locadora-card {

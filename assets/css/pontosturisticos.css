@@ -66,11 +66,11 @@ body {
 }
 
 .sectionLista__card {
-    border: 1px solid #03578c9b;
+    border: 1px solid #00000034;
     border-radius: 15px;
     width: 49%;
     margin: 30px 0;
-    box-shadow: 1px 1px 4px #03578c9b;
+    box-shadow: 2px 2px 5px #00000054;
   }
   
   .sectionLista__cardImg img{
