@@ -6,7 +6,7 @@ O Gulliver-Traveller é uma aplicação web que possibilita o viajante procurar 
 
 ## O que o Gulliver-Traveller tem de mais diferente de todos os outros sites de viagens? <br>
 
-Bem, o Guliver tem, além do design que atende qualquer idade, foi pensando muito também na acessibilidade para dar conseguir entregar para pessoas com deficiência, a mesma experiência que qualquer outro usuário da nossa página teria para fazer uma busca e viajar. Com isso em mente, foi pensando as cores a serem usadas para quem tem daltonismo, **zoom in** e **zoom out** para quem tem alguma deficiência visual e por útlimo, mas não menos importante, uma API de libras para quem se comunica através da língua de sinais. Tudo foi pensando com muito carinho para que VOCÊ, possa usar a Guliver-Traveller e ter a melhor experiência possível! <br>
+Bem, o Gulliver tem, além do design que atende qualquer idade, foi pensando muito também na acessibilidade para dar conseguir entregar para pessoas com deficiência, a mesma experiência que qualquer outro usuário da nossa página teria para fazer uma busca e viajar. Com isso em mente, foi pensando as cores a serem usadas para quem tem daltonismo, **zoom in** e **zoom out** para quem tem alguma deficiência visual e por último, mas não menos importante, uma API de libras para quem se comunica através da língua de sinais. Tudo foi pensando com muito carinho para que VOCÊ, possa usar a Guliver-Traveller e ter a melhor experiência possível! <br>
 
 ### Recursos utilizados:
 - API de LIBRAS: https://www.gov.br/governodigital/pt-br/vlibras
