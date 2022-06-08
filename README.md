@@ -12,7 +12,7 @@ Bem, o Gulliver tem, além do design que atende qualquer idade, foi pensando mui
 - API de LIBRAS: https://www.gov.br/governodigital/pt-br/vlibras
 - Acessibilidade de Cores: https://color.adobe.com/pt/create/color-accessibility
 
-# API DE LIBRAS: 
+## API DE LIBRAS: 
 
 O VLibras Widget é um recurso de acessibilidade desenvolvido para tornar páginas web acessíveis para pessoas surdas. Com a tradução automática de Português Brasileiro para a Língua Brasileira de Sinais (LIBRAS), essa ferramenta permite que usuários surdos sejam capazes de consumir conteúdos de texto em qualquer website. <br>
 
