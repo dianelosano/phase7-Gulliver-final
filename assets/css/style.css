@@ -110,6 +110,24 @@ textarea:focus, input:focus {
     display: none;
 }
 
+#increase-font,
+#decrease-font {
+    border-radius: 100%;
+    border-style: none;
+    width: 2.8rem;
+    height: 2rem;
+    background-color: #ffffff;
+    color: #e28065;
+}
+
+#increase-font:hover,
+#decrease-font:hover {
+    background-color: #e28065;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
 /* SEÇÃO SOBRE SÃO PAULO ------------------------------------ */
 
 .sectionSobreSP {
