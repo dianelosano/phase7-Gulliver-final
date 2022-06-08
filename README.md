@@ -41,5 +41,5 @@ https://www.gov.br/governodigital/pt-br/vlibras
 - Outras rotas funcionais com dados em um mock para ainda serem implementadas as APIs.
 
 ### Como desbravar nessa aventura? <br>
-Basta acessar o nosso site abaixo: <br>
-gulliver-traveller.netlify.app
+Para conhecer o Gulliver Traveller, todo o seu conteúdo e suas funcionalidades, basta acessar o site clicando no link abaixo: <br>
+[gulliver-traveller.netlify.app](https://gulliver-traveller-final.netlify.app/)
