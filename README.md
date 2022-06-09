@@ -42,7 +42,7 @@ https://www.gov.br/governodigital/pt-br/vlibras
 - Cadastro e Login
 - Outras rotas funcionais com dados em um mock para ainda serem implementadas as APIs
 
-## Feature de Cadastro e Login
+## API de Cadastro e Login
 
 Essa feature foi desenvolvida em JAVA, para o back-end se conectar com o banco de dados, trazendo funcionalidade no front-end para as áreas de Cadastro e Login. <br>
 
