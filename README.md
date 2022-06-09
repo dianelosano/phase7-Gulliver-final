@@ -1,5 +1,7 @@
 # Gulliver Traveller
 
+![image](https://user-images.githubusercontent.com/89409021/172737494-5d101942-0b2d-4000-9454-8fecbfdf543e.png)
+
 ## O que é o Gulliver Traveller? <br>
 
 O Gulliver Traveller é uma aplicação web que possibilita o viajante procurar um destino final para explorar dicas úteis, onde se hospedar, alugue seu carro, história, cultura, parques, gastronomia, vida noturna, entretenimento, como chegar, etc. Com isso, tentamos ao máximo trazer uma interface mais juvenil para atrair os usuários mais tech-saavy, mas não excluindo os mais old school, com um UX baseado nos designs mais famosos da web. <br>
