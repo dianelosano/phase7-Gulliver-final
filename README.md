@@ -22,7 +22,7 @@ A tradução com o VLibras Widget é feita pela seleção do texto que se deseja
 
 ![image](https://user-images.githubusercontent.com/89409021/172734619-00b8c916-bb45-4d73-a328-87286b87df49.png) <br>
 
-Com o widget aberto, ao passar o ponteiro do mouse por um elemento de texto, este é realçado indicando que pode ser traduzido. Clicando com o botão esquedo do mouse, a ferramenta iniciará a tradução. <br>
+Com o widget aberto, ao passar o ponteiro do mouse por um elemento de texto, este é realçado indicando que pode ser traduzido. Clicando com o botão esquerdo do mouse, a ferramenta iniciará a tradução. <br>
 
 ![image](https://user-images.githubusercontent.com/89409021/172734760-5a05af4c-f3ca-45d9-9a75-e9e6c3c76ed8.png) <br>
 
